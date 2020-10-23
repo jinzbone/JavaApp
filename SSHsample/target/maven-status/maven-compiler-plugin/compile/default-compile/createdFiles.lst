@@ -1,0 +1,4 @@
+com\zj\dao\hibernate\UserDao.class
+com\zj\domain\User.class
+com\zj\service\UserService.class
+com\zj\controller\UserController.class
