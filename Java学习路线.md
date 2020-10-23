@@ -3,9 +3,7 @@
 
 ## Java SE 基础
 
-**[《疯狂Java讲义》](链接：https://pan.baidu.com/s/1VasLUjF6B9aGcRcBpBQbXA 
-提取码：1111 
-复制这段内容后打开百度网盘手机App，操作更方便哦)**
+**[《疯狂Java讲义》](链接：https://pan.baidu.com/s/1VasLUjF6B9aGcRcBpBQbXA)**
 
 ## Java 项目 & 框架
 
@@ -15,6 +13,6 @@
 
 **Spring**  **[《Spring 4.x 企业应用开发实战》](https://pan.baidu.com/s/1Zy_NPlHzsmsixyqY-FBvCA)**
 
-
+> 提取码均为 1111
 
 
