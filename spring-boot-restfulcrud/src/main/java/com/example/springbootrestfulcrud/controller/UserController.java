@@ -12,9 +12,4 @@ public class UserController {
     public String sayHi(){
         return "Hello";
     }
-
-    @RequestMapping("/success")
-    public String success(){
-        return "success";
-    }
 }
