@@ -1,0 +1,36 @@
+2020-12-20 00:06:42.516  INFO 13840 --- [main] com.springboot.demo.App                  : Starting App using Java 1.8.0_181 on ZhangJing with PID 13840 (D:\workspace\JavaApp\springbootdemo\target\classes started by 张静 in D:\workspace\JavaApp\springbootdemo)
+2020-12-20 00:06:42.518  INFO 13840 --- [main] com.springboot.demo.App                  : No active profile set, falling back to default profiles: default
+2020-12-20 00:06:43.027  INFO 13840 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-12-20 00:06:43.033  INFO 13840 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-20 00:06:43.033  INFO 13840 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-20 00:06:43.086  INFO 13840 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-20 00:06:43.086  INFO 13840 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 538 ms
+2020-12-20 00:06:43.172  INFO 13840 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-20 00:06:43.262  INFO 13840 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-12-20 00:06:43.268  INFO 13840 --- [main] com.springboot.demo.App                  : Started App in 1.002 seconds (JVM running for 1.503)
+2020-12-20 00:23:15.540  INFO 20932 --- [main] com.springboot.demo.App                  : Starting App using Java 1.8.0_181 on ZhangJing with PID 20932 (D:\workspace\JavaApp\springbootdemo\target\classes started by 张静 in D:\workspace\JavaApp\springbootdemo)
+2020-12-20 00:23:15.543  INFO 20932 --- [main] com.springboot.demo.App                  : No active profile set, falling back to default profiles: default
+2020-12-20 00:23:16.047  INFO 20932 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-12-20 00:23:16.053  INFO 20932 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-20 00:23:16.053  INFO 20932 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-20 00:23:16.110  INFO 20932 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-20 00:23:16.110  INFO 20932 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 537 ms
+2020-12-20 00:23:16.212  INFO 20932 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-20 00:23:16.319  INFO 20932 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-12-20 00:23:16.327  INFO 20932 --- [main] com.springboot.demo.App                  : Started App in 1.037 seconds (JVM running for 1.539)
+2020-12-20 00:23:32.717  INFO 20932 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-20 00:23:32.717  INFO 20932 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-20 00:23:32.718  INFO 20932 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2020-12-20 00:27:04.912  INFO 28408 --- [main] com.springboot.demo.App                  : Starting App using Java 1.8.0_181 on ZhangJing with PID 28408 (D:\workspace\JavaApp\springbootdemo\target\classes started by 张静 in D:\workspace\JavaApp\springbootdemo)
+2020-12-20 00:27:04.913  INFO 28408 --- [main] com.springboot.demo.App                  : No active profile set, falling back to default profiles: default
+2020-12-20 00:27:05.428  INFO 28408 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-12-20 00:27:05.434  INFO 28408 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-20 00:27:05.434  INFO 28408 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-20 00:27:05.484  INFO 28408 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-20 00:27:05.484  INFO 28408 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 538 ms
+2020-12-20 00:27:05.574  INFO 28408 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-20 00:27:05.667  INFO 28408 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-12-20 00:27:05.673  INFO 28408 --- [main] com.springboot.demo.App                  : Started App in 1.005 seconds (JVM running for 1.5)
+2020-12-20 00:27:33.257  INFO 28408 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-20 00:27:33.258  INFO 28408 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-20 00:27:33.258  INFO 28408 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
