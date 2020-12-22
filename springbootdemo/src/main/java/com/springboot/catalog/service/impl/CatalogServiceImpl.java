@@ -1,7 +1,7 @@
-package com.springboot.demo.service.impl;
+package com.springboot.catalog.service.impl;
 
-import com.springboot.demo.dao.CatalogDao;
-import com.springboot.demo.service.CatalogService;
+import com.springboot.catalog.dao.CatalogDao;
+import com.springboot.catalog.service.CatalogService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

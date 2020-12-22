@@ -1,4 +1,4 @@
-package com.springboot.demo.config;
+package com.springboot.appconfig;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
