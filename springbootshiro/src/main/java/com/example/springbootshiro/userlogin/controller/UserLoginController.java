@@ -1,6 +1,7 @@
 package com.example.springbootshiro.userlogin.controller;
 
 import com.example.springbootshiro.model.User;
+import com.example.springbootshiro.shiro.Access;
 import com.example.springbootshiro.userlogin.service.ShiroOpt;
 import com.example.springbootshiro.userlogin.service.UserService;
 import org.apache.shiro.SecurityUtils;
@@ -9,6 +10,7 @@ import org.apache.shiro.authz.annotation.RequiresRoles;
 import org.apache.shiro.subject.Subject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -20,7 +22,7 @@ public class UserLoginController {
     @Autowired
     UserService userService;
 
-    @GetMapping("user")
+    @GetMapping("/user")
     public String getUser(@RequestParam String username, @RequestParam String password){
         //获取当前用户
         Subject currentUser = SecurityUtils.getSubject();
@@ -39,12 +41,27 @@ public class UserLoginController {
 
         return "login user";
     }
-    @GetMapping("please")
-    public String please(){
-        return "please login as admin!";
+
+    @GetMapping("/wacatalog")
+    @Access(perm = "wacatalog")
+    public String wacatalog(@RequestHeader String token){
+        String[] lst = userService.getPerms(token);
+        System.out.println(lst);
+        return "wacatalog page!";
     }
+
+    @GetMapping("/dirmanage")
+    @Access(perm = "dirmanage")
+    public String dirmanage(){
+//        System.out.println("request:"+token);
+        String token = "test";
+        String[] lst = userService.getPerms(token);
+        System.out.println(lst);
+        return "dirmanage page!";
+    }
+
     @GetMapping("admin")
-    @RequiresRoles("role:admin")
+//    @RequiresRoles("role:admin")
     public List<User> getUsers(){
         return userService.getUsers();
     }

@@ -19,7 +19,13 @@ public class UserServiceImpl implements UserService {
     public List<User> getUsers() {
         UserExample example = new UserExample();
         List<User> userList = userMapper.selectByExample(example);
-
         return userList;
+    }
+
+    @Override
+    public String[] getPerms(String token) {
+        String[] perms = new String[]{"wacatalog","test"};
+        System.out.println(perms);
+        return perms;
     }
 }

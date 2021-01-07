@@ -7,7 +7,7 @@
     <properties resource="db.properties"></properties>
 
     <!-- context 一般是一个数据源一个context -->
-<!--    <context id="default" targetRuntime="MyBatis3Simple" defaultModelType="flat">-->
+    <!--    <context id="default" targetRuntime="MyBatis3Simple" defaultModelType="flat">-->
     <context id="default" defaultModelType="flat">
         <!-- 插件 -->
         <plugin type="org.mybatis.generator.plugins.EqualsHashCodePlugin">
@@ -60,7 +60,7 @@
         </javaClientGenerator>
 
         <!-- 指定数据库表 -->
-<!--        <table tableName="customers" domainObjectName="Customers"> </table>-->
-<!--        <table tableName="orders" domainObjectName="Orders"> </table>-->
+        <!--        <table tableName="customers" domainObjectName="Customers"> </table>-->
+        <!--        <table tableName="orders" domainObjectName="Orders"> </table>-->
     </context>
 </generatorConfiguration>
