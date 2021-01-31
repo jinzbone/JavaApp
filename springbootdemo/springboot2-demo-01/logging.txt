@@ -1,0 +1,142 @@
+2021-02-01 00:15:18.024  INFO 31108 --- [restartedMain] com.demo.App                             : Starting App on ZhangJing with PID 31108 (D:\workspace\JavaApp\springbootdemo\springboot2-demo-01\target\classes started by 张静 in D:\workspace\JavaApp\springbootdemo\springboot2-demo-01)
+2021-02-01 00:15:18.030  INFO 31108 --- [restartedMain] com.demo.App                             : No active profile set, falling back to default profiles: default
+2021-02-01 00:15:18.069  INFO 31108 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-01 00:15:18.069  INFO 31108 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-01 00:15:18.707  INFO 31108 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-02-01 00:15:18.713  INFO 31108 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-01 00:15:18.714  INFO 31108 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-02-01 00:15:18.764  INFO 31108 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-01 00:15:18.765  INFO 31108 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 696 ms
+2021-02-01 00:15:18.884  INFO 31108 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-01 00:15:18.987  INFO 31108 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-01 00:15:19.014  INFO 31108 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-02-01 00:15:19.023  INFO 31108 --- [restartedMain] com.demo.App                             : Started App in 1.483 seconds (JVM running for 2.204)
+2021-02-01 00:15:38.830  INFO 31108 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-01 00:15:38.831  INFO 31108 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-01 00:15:38.834  INFO 31108 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-02-01 00:15:43.174  INFO 31108 --- [http-nio-8081-exec-2] com.demo.controller.HelloController      : 进入car路径
+2021-02-01 00:15:55.691  INFO 31108 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-01 00:15:55.779  INFO 31108 --- [restartedMain] com.demo.App                             : Starting App on ZhangJing with PID 31108 (D:\workspace\JavaApp\springbootdemo\springboot2-demo-01\target\classes started by 张静 in D:\workspace\JavaApp\springbootdemo\springboot2-demo-01)
+2021-02-01 00:15:55.779  INFO 31108 --- [restartedMain] com.demo.App                             : No active profile set, falling back to default profiles: default
+2021-02-01 00:15:55.899  INFO 31108 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-01 00:15:55.899  INFO 31108 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-01 00:15:55.899  INFO 31108 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-02-01 00:15:55.913  INFO 31108 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-01 00:15:55.913  INFO 31108 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 132 ms
+2021-02-01 00:15:55.941  INFO 31108 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-01 00:15:55.963  INFO 31108 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-01 00:15:55.969  WARN 31108 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2021-02-01 00:15:55.970  INFO 31108 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-01 00:15:55.970  INFO 31108 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-02-01 00:15:55.973  INFO 31108 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-02-01 00:15:55.977 ERROR 31108 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2021-02-01 00:18:49.398  INFO 11064 --- [restartedMain] com.demo.App                             : Starting App on ZhangJing with PID 11064 (D:\workspace\JavaApp\springbootdemo\springboot2-demo-01\target\classes started by 张静 in D:\workspace\JavaApp\springbootdemo\springboot2-demo-01)
+2021-02-01 00:18:49.400  INFO 11064 --- [restartedMain] com.demo.App                             : No active profile set, falling back to default profiles: default
+2021-02-01 00:18:49.433  INFO 11064 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-01 00:18:49.433  INFO 11064 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-01 00:18:50.018  INFO 11064 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-01 00:18:50.024  INFO 11064 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-01 00:18:50.025  INFO 11064 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-02-01 00:18:50.075  INFO 11064 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-01 00:18:50.075  INFO 11064 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 642 ms
+2021-02-01 00:18:50.184  INFO 11064 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-01 00:18:50.277  INFO 11064 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-01 00:18:50.301  WARN 11064 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2021-02-01 00:18:50.301  INFO 11064 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-01 00:18:50.303  INFO 11064 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-02-01 00:18:50.310  INFO 11064 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-02-01 00:18:50.313 ERROR 11064 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2021-02-01 00:23:03.592  INFO 17096 --- [restartedMain] com.demo.App                             : Starting App on ZhangJing with PID 17096 (D:\workspace\JavaApp\springbootdemo\springboot2-demo-01\target\classes started by 张静 in D:\workspace\JavaApp\springbootdemo\springboot2-demo-01)
+2021-02-01 00:23:03.594  INFO 17096 --- [restartedMain] com.demo.App                             : No active profile set, falling back to default profiles: default
+2021-02-01 00:23:03.627  INFO 17096 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-01 00:23:03.627  INFO 17096 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-01 00:23:04.205  INFO 17096 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-01 00:23:04.211  INFO 17096 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-01 00:23:04.211  INFO 17096 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-02-01 00:23:04.263  INFO 17096 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-01 00:23:04.264  INFO 17096 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 637 ms
+2021-02-01 00:23:04.371  INFO 17096 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-01 00:23:04.456  INFO 17096 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-01 00:23:04.485  INFO 17096 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-01 00:23:04.492  INFO 17096 --- [restartedMain] com.demo.App                             : Started App in 1.353 seconds (JVM running for 1.939)
+2021-02-01 00:23:11.301  INFO 17096 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-01 00:23:11.301  INFO 17096 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-01 00:23:11.304  INFO 17096 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-02-01 00:23:11.315  INFO 17096 --- [http-nio-8080-exec-1] com.demo.controller.HelloController      : 进入car路径
+2021-02-01 00:23:37.145  INFO 17096 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-01 00:23:37.261  INFO 17096 --- [restartedMain] com.demo.App                             : Starting App on ZhangJing with PID 17096 (D:\workspace\JavaApp\springbootdemo\springboot2-demo-01\target\classes started by 张静 in D:\workspace\JavaApp\springbootdemo\springboot2-demo-01)
+2021-02-01 00:23:37.261  INFO 17096 --- [restartedMain] com.demo.App                             : No active profile set, falling back to default profiles: default
+2021-02-01 00:23:37.460  INFO 17096 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-02-01 00:23:37.461  INFO 17096 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-01 00:23:37.461  INFO 17096 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-02-01 00:23:37.476  INFO 17096 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-01 00:23:37.476  INFO 17096 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 212 ms
+2021-02-01 00:23:37.505  INFO 17096 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-01 00:23:37.528  INFO 17096 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-01 00:23:37.534  INFO 17096 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-02-01 00:23:37.537  INFO 17096 --- [restartedMain] com.demo.App                             : Started App in 0.314 seconds (JVM running for 34.984)
+2021-02-01 00:23:37.538  INFO 17096 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-02-01 00:23:37.622  INFO 17096 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-01 00:23:37.622  INFO 17096 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-01 00:23:37.623  INFO 17096 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-02-01 00:23:37.624  INFO 17096 --- [http-nio-8081-exec-1] com.demo.controller.HelloController      : 进入car路径
+2021-02-01 00:23:42.056  INFO 25492 --- [restartedMain] com.demo.App                             : Starting App on ZhangJing with PID 25492 (D:\workspace\JavaApp\springbootdemo\springboot2-demo-01\target\classes started by 张静 in D:\workspace\JavaApp\springbootdemo\springboot2-demo-01)
+2021-02-01 00:23:42.059  INFO 25492 --- [restartedMain] com.demo.App                             : No active profile set, falling back to default profiles: default
+2021-02-01 00:23:42.100  INFO 25492 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-01 00:23:42.101  INFO 25492 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-01 00:23:42.687  INFO 25492 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-02-01 00:23:42.693  INFO 25492 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-01 00:23:42.693  INFO 25492 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-02-01 00:23:42.743  INFO 25492 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-01 00:23:42.744  INFO 25492 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 643 ms
+2021-02-01 00:23:42.851  INFO 25492 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-01 00:23:42.947  INFO 25492 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-01 00:23:42.969  INFO 25492 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-02-01 00:23:42.976  INFO 25492 --- [restartedMain] com.demo.App                             : Started App in 1.415 seconds (JVM running for 2.103)
+2021-02-01 00:23:53.609  INFO 25492 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-01 00:23:53.724  INFO 25492 --- [restartedMain] com.demo.App                             : Starting App on ZhangJing with PID 25492 (D:\workspace\JavaApp\springbootdemo\springboot2-demo-01\target\classes started by 张静 in D:\workspace\JavaApp\springbootdemo\springboot2-demo-01)
+2021-02-01 00:23:53.724  INFO 25492 --- [restartedMain] com.demo.App                             : No active profile set, falling back to default profiles: default
+2021-02-01 00:23:53.881  INFO 25492 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-01 00:23:53.882  INFO 25492 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-01 00:23:53.882  INFO 25492 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-02-01 00:23:53.897  INFO 25492 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-01 00:23:53.897  INFO 25492 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 171 ms
+2021-02-01 00:23:53.937  INFO 25492 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-01 00:23:53.961  INFO 25492 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-01 00:23:53.967  INFO 25492 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-01 00:23:53.970  INFO 25492 --- [restartedMain] com.demo.App                             : Started App in 0.283 seconds (JVM running for 13.097)
+2021-02-01 00:23:53.971  INFO 25492 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-02-01 00:24:01.289  INFO 25492 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-01 00:24:01.290  INFO 25492 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-01 00:24:01.293  INFO 25492 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-02-01 00:24:01.304  INFO 25492 --- [http-nio-8080-exec-1] com.demo.controller.HelloController      : 进入car路径

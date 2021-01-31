@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "name": "my.datasource",
+      "type": "com.demo.springboot2demo02.config.DataSourceConfig",
+      "sourceType": "com.demo.springboot2demo02.config.DataSourceConfig"
+    },
+    {
+      "name": "user",
+      "type": "com.demo.springboot2demo02.bean.User",
+      "sourceType": "com.demo.springboot2demo02.bean.User"
+    }
+  ],
+  "properties": [
+    {
+      "name": "user.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.demo.springboot2demo02.bean.User",
+      "defaultValue": 0
+    },
+    {
+      "name": "user.name",
+      "type": "java.lang.String",
+      "sourceType": "com.demo.springboot2demo02.bean.User"
+    }
+  ],
+  "hints": []
+}
