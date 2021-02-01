@@ -1,24 +1,38 @@
 package com.demo.springboot2demo02.controller;
-
-import com.demo.springboot2demo02.mapper.OrderMapper;
-import com.zaxxer.hikari.HikariDataSource;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
-
-import javax.sql.DataSource;
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.Resource;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class HelloController {
-    @Autowired
-    OrderMapper orderMapper;
 
     @ResponseBody
     @GetMapping("/hello")
     public String hello(){
-        int a = orderMapper.selectAll();
-        System.out.println("a: "+a);
         return "Hi!";
+    }
+
+    @ResponseBody
+    @GetMapping("/user")
+    public String getUser(){
+        return "GET user";
+    }
+
+    @ResponseBody
+    @PostMapping("/user")
+    public String postUser(){
+        return "POST user";
+    }
+
+    @ResponseBody
+    @PutMapping("/user")
+    public String putUser(){
+        return "PUT user";
+    }
+
+    @ResponseBody
+    @DeleteMapping("/user")
+    public String deleteUser(){
+        return "DELETE user";
     }
 }

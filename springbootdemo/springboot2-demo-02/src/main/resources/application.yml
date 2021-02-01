@@ -1,9 +1,6 @@
 user:
   name: 张三
   age: 12
-spring:
-  datasource:
-    username: root
-    password: 123456
-    url: jdbc:mysql://localhost:3306/bzbh?serverTimezone=UTC
-    driver-class-name: com.mysql.jdbc.Driver
+#spring:
+#  mvc:
+#    static-path-pattern: /resources/**  # 会导致 welcome 页失效、 favicon.ico 失效
