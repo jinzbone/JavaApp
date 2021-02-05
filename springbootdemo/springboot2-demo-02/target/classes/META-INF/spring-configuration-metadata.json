@@ -1,28 +1,12 @@
 {
   "groups": [
     {
-      "name": "user",
-      "type": "com.demo.springboot2demo02.bean.User",
-      "sourceType": "com.demo.springboot2demo02.bean.User"
+      "name": "spring.datasource.primary",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.demo.springboot2demo02.config.DataSourceConfig",
+      "sourceMethod": "dataSource()"
     }
   ],
-  "properties": [
-    {
-      "name": "user.age",
-      "type": "java.lang.Integer",
-      "sourceType": "com.demo.springboot2demo02.bean.User",
-      "defaultValue": 0
-    },
-    {
-      "name": "user.name",
-      "type": "java.lang.String",
-      "sourceType": "com.demo.springboot2demo02.bean.User"
-    },
-    {
-      "name": "user.sex",
-      "type": "java.lang.String",
-      "sourceType": "com.demo.springboot2demo02.bean.User"
-    }
-  ],
+  "properties": [],
   "hints": []
 }

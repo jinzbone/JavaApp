@@ -1,6 +1,15 @@
 user:
   name: 张三
   age: 12
-#spring:
-#  mvc:
+
+#pagehelper:
+#  helper-dialect: mysql
+#  reasonable: true
+#  support-methods-arguments: true
+#  params: count=countsql
+
+
+logging:
+  file:
+    name: logging.txt
 #    static-path-pattern: /resources/**  # 会导致 welcome 页失效、 favicon.ico 失效

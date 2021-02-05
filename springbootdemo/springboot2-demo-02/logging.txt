@@ -1,0 +1,423 @@
+2021-02-06 00:51:47.431  INFO 24892 --- [restartedMain] com.demo.springboot2demo02.App           : Starting App on ZhangJing with PID 24892 (D:\workspace\JavaApp\springbootdemo\springboot2-demo-02\target\classes started by 张静 in D:\workspace\JavaApp\springbootdemo\springboot2-demo-02)
+2021-02-06 00:51:47.435  INFO 24892 --- [restartedMain] com.demo.springboot2demo02.App           : No active profile set, falling back to default profiles: default
+2021-02-06 00:51:47.471  INFO 24892 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-06 00:51:47.472  INFO 24892 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-06 00:51:48.088  WARN 24892 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.demo.springboot2demo02.catalogmapper]' package. Please check your configuration.
+2021-02-06 00:51:48.089  WARN 24892 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.demo.springboot2demo02.test]' package. Please check your configuration.
+2021-02-06 00:51:48.397  INFO 24892 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-06 00:51:48.403  INFO 24892 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-06 00:51:48.403  INFO 24892 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-06 00:51:48.456  INFO 24892 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-06 00:51:48.456  INFO 24892 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 984 ms
+2021-02-06 00:51:48.524  WARN 24892 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'helloController': Unsatisfied dependency expressed through field 'ordersMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.demo.springboot2demo02.mapper.OrdersMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-02-06 00:51:48.526  INFO 24892 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-02-06 00:51:48.533  INFO 24892 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-02-06 00:51:48.609 ERROR 24892 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field ordersMapper in com.demo.springboot2demo02.login.controller.HelloController required a bean of type 'com.demo.springboot2demo02.mapper.OrdersMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.demo.springboot2demo02.mapper.OrdersMapper' in your configuration.
+
+2021-02-06 00:52:53.969  INFO 23932 --- [restartedMain] com.demo.springboot2demo02.App           : Starting App on ZhangJing with PID 23932 (D:\workspace\JavaApp\springbootdemo\springboot2-demo-02\target\classes started by 张静 in D:\workspace\JavaApp\springbootdemo\springboot2-demo-02)
+2021-02-06 00:52:53.971  INFO 23932 --- [restartedMain] com.demo.springboot2demo02.App           : No active profile set, falling back to default profiles: default
+2021-02-06 00:52:54.002  INFO 23932 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-06 00:52:54.002  INFO 23932 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-06 00:52:54.452  WARN 23932 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.demo.springboot2demo02.test]' package. Please check your configuration.
+2021-02-06 00:52:54.454  WARN 23932 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+2021-02-06 00:52:54.454  WARN 23932 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+2021-02-06 00:52:54.687  INFO 23932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-06 00:52:54.693  INFO 23932 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-06 00:52:54.693  INFO 23932 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-06 00:52:54.741  INFO 23932 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-06 00:52:54.741  INFO 23932 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 739 ms
+2021-02-06 00:52:54.948  INFO 23932 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-06 00:52:54.995  INFO 23932 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-02-06 00:52:55.059  INFO 23932 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-06 00:52:55.082  INFO 23932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-06 00:52:55.090  INFO 23932 --- [restartedMain] com.demo.springboot2demo02.App           : Started App in 1.349 seconds (JVM running for 1.912)
+2021-02-06 00:53:02.826  INFO 23932 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-06 00:53:02.827  INFO 23932 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-06 00:53:02.833  INFO 23932 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2021-02-06 00:53:02.851  INFO 23932 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-06 00:53:03.299  INFO 23932 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-06 01:05:53.573  INFO 17048 --- [restartedMain] com.demo.springboot2demo02.App           : Starting App on ZhangJing with PID 17048 (D:\workspace\JavaApp\springbootdemo\springboot2-demo-02\target\classes started by 张静 in D:\workspace\JavaApp\springbootdemo\springboot2-demo-02)
+2021-02-06 01:05:53.575  INFO 17048 --- [restartedMain] com.demo.springboot2demo02.App           : No active profile set, falling back to default profiles: default
+2021-02-06 01:05:53.608  INFO 17048 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-06 01:05:53.608  INFO 17048 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-06 01:05:54.044  WARN 17048 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+2021-02-06 01:05:54.044  WARN 17048 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+2021-02-06 01:05:54.277  INFO 17048 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-06 01:05:54.282  INFO 17048 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-06 01:05:54.283  INFO 17048 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-06 01:05:54.330  INFO 17048 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-06 01:05:54.331  INFO 17048 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 722 ms
+2021-02-06 01:05:54.506  INFO 17048 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-06 01:05:54.550  INFO 17048 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-02-06 01:05:54.617  INFO 17048 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-06 01:05:54.638  INFO 17048 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-06 01:05:54.646  INFO 17048 --- [restartedMain] com.demo.springboot2demo02.App           : Started App in 1.304 seconds (JVM running for 1.913)
+2021-02-06 01:05:56.643  INFO 17048 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-06 01:05:56.643  INFO 17048 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-06 01:05:56.647  INFO 17048 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2021-02-06 01:05:56.669  INFO 17048 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-06 01:05:57.101  INFO 17048 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-06 01:15:03.428  INFO 17048 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-06 01:15:03.428  INFO 17048 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-02-06 01:15:03.433  INFO 17048 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-02-06 01:15:03.574  INFO 17048 --- [restartedMain] com.demo.springboot2demo02.App           : Starting App on ZhangJing with PID 17048 (D:\workspace\JavaApp\springbootdemo\springboot2-demo-02\target\classes started by 张静 in D:\workspace\JavaApp\springbootdemo\springboot2-demo-02)
+2021-02-06 01:15:03.575  INFO 17048 --- [restartedMain] com.demo.springboot2demo02.App           : No active profile set, falling back to default profiles: default
+2021-02-06 01:15:03.697  WARN 17048 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+2021-02-06 01:15:03.697  WARN 17048 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+2021-02-06 01:15:03.754  INFO 17048 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-06 01:15:03.755  INFO 17048 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-06 01:15:03.755  INFO 17048 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-06 01:15:03.776  INFO 17048 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-06 01:15:03.776  INFO 17048 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 200 ms
+2021-02-06 01:15:03.843  INFO 17048 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-06 01:15:03.855  INFO 17048 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-02-06 01:15:03.886  INFO 17048 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-06 01:15:03.898  INFO 17048 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-06 01:15:03.901  INFO 17048 --- [restartedMain] com.demo.springboot2demo02.App           : Started App in 0.344 seconds (JVM running for 551.169)
+2021-02-06 01:15:03.903  INFO 17048 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-02-06 01:15:05.869  INFO 17048 --- [Thread-15] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-06 01:15:05.974  INFO 17048 --- [restartedMain] com.demo.springboot2demo02.App           : Starting App on ZhangJing with PID 17048 (D:\workspace\JavaApp\springbootdemo\springboot2-demo-02\target\classes started by 张静 in D:\workspace\JavaApp\springbootdemo\springboot2-demo-02)
+2021-02-06 01:15:05.974  INFO 17048 --- [restartedMain] com.demo.springboot2demo02.App           : No active profile set, falling back to default profiles: default
+2021-02-06 01:15:06.141  WARN 17048 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+2021-02-06 01:15:06.141  WARN 17048 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+2021-02-06 01:15:06.176  INFO 17048 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-06 01:15:06.176  INFO 17048 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-06 01:15:06.177  INFO 17048 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-06 01:15:06.193  INFO 17048 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-06 01:15:06.193  INFO 17048 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 217 ms
+2021-02-06 01:15:06.248  INFO 17048 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-06 01:15:06.257  INFO 17048 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-02-06 01:15:06.281  INFO 17048 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-06 01:15:06.289  INFO 17048 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-06 01:15:06.291  INFO 17048 --- [restartedMain] com.demo.springboot2demo02.App           : Started App in 0.332 seconds (JVM running for 553.558)
+2021-02-06 01:15:06.292  INFO 17048 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-02-06 01:20:39.519  INFO 14872 --- [restartedMain] com.demo.springboot2demo02.App           : Starting App on ZhangJing with PID 14872 (D:\workspace\JavaApp\springbootdemo\springboot2-demo-02\target\classes started by 张静 in D:\workspace\JavaApp\springbootdemo\springboot2-demo-02)
+2021-02-06 01:20:39.521  INFO 14872 --- [restartedMain] com.demo.springboot2demo02.App           : No active profile set, falling back to default profiles: default
+2021-02-06 01:20:39.552  INFO 14872 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-06 01:20:39.552  INFO 14872 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-06 01:20:40.067  WARN 14872 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+2021-02-06 01:20:40.067  WARN 14872 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+2021-02-06 01:20:40.304  INFO 14872 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-06 01:20:40.309  INFO 14872 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-06 01:20:40.309  INFO 14872 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-06 01:20:40.357  INFO 14872 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-06 01:20:40.358  INFO 14872 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 805 ms
+2021-02-06 01:20:40.535  INFO 14872 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-06 01:20:40.579  INFO 14872 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-02-06 01:20:40.645  INFO 14872 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-06 01:20:40.667  INFO 14872 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-06 01:20:40.674  INFO 14872 --- [restartedMain] com.demo.springboot2demo02.App           : Started App in 1.395 seconds (JVM running for 2.014)
+2021-02-06 01:20:42.431  INFO 14872 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-06 01:20:42.431  INFO 14872 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-06 01:20:42.435  INFO 14872 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-02-06 01:20:42.456  INFO 14872 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-06 01:20:42.898  INFO 14872 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-06 01:21:02.907  INFO 14892 --- [restartedMain] com.demo.springboot2demo02.App           : Starting App on ZhangJing with PID 14892 (D:\workspace\JavaApp\springbootdemo\springboot2-demo-02\target\classes started by 张静 in D:\workspace\JavaApp\springbootdemo\springboot2-demo-02)
+2021-02-06 01:21:02.909  INFO 14892 --- [restartedMain] com.demo.springboot2demo02.App           : No active profile set, falling back to default profiles: default
+2021-02-06 01:21:02.944  INFO 14892 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-06 01:21:02.944  INFO 14892 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-06 01:21:03.380  WARN 14892 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+2021-02-06 01:21:03.380  WARN 14892 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+2021-02-06 01:21:03.613  INFO 14892 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-06 01:21:03.618  INFO 14892 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-06 01:21:03.618  INFO 14892 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-06 01:21:03.669  INFO 14892 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-06 01:21:03.669  INFO 14892 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 725 ms
+2021-02-06 01:21:03.855  INFO 14892 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-06 01:21:03.899  INFO 14892 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-02-06 01:21:03.967  INFO 14892 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-06 01:21:03.991  INFO 14892 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-06 01:21:03.998  INFO 14892 --- [restartedMain] com.demo.springboot2demo02.App           : Started App in 1.341 seconds (JVM running for 1.989)
+2021-02-06 01:21:08.184  INFO 14892 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-06 01:21:08.185  INFO 14892 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-06 01:21:08.188  INFO 14892 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-02-06 01:21:08.209  INFO 14892 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-06 01:21:08.645  INFO 14892 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-06 01:22:38.402  INFO 21368 --- [restartedMain] com.demo.springboot2demo02.App           : Starting App on ZhangJing with PID 21368 (D:\workspace\JavaApp\springbootdemo\springboot2-demo-02\target\classes started by 张静 in D:\workspace\JavaApp\springbootdemo\springboot2-demo-02)
+2021-02-06 01:22:38.404  INFO 21368 --- [restartedMain] com.demo.springboot2demo02.App           : No active profile set, falling back to default profiles: default
+2021-02-06 01:22:38.434  INFO 21368 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-06 01:22:38.434  INFO 21368 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-06 01:22:38.854  WARN 21368 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+2021-02-06 01:22:38.854  WARN 21368 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+2021-02-06 01:22:39.094  INFO 21368 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-06 01:22:39.099  INFO 21368 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-06 01:22:39.099  INFO 21368 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-06 01:22:39.150  INFO 21368 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-06 01:22:39.150  INFO 21368 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 716 ms
+2021-02-06 01:22:39.325  INFO 21368 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-06 01:22:39.369  INFO 21368 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-02-06 01:22:39.436  INFO 21368 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-06 01:22:39.457  INFO 21368 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-06 01:22:39.464  INFO 21368 --- [restartedMain] com.demo.springboot2demo02.App           : Started App in 1.294 seconds (JVM running for 1.9)
+2021-02-06 01:22:45.242  INFO 21368 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-06 01:22:45.242  INFO 21368 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-06 01:22:45.245  INFO 21368 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-02-06 01:22:45.265  INFO 21368 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-06 01:22:45.699  INFO 21368 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-06 01:23:51.035  INFO 2052 --- [restartedMain] com.demo.springboot2demo02.App           : Starting App on ZhangJing with PID 2052 (D:\workspace\JavaApp\springbootdemo\springboot2-demo-02\target\classes started by 张静 in D:\workspace\JavaApp\springbootdemo\springboot2-demo-02)
+2021-02-06 01:23:51.037  INFO 2052 --- [restartedMain] com.demo.springboot2demo02.App           : No active profile set, falling back to default profiles: default
+2021-02-06 01:23:51.069  INFO 2052 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-06 01:23:51.069  INFO 2052 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-06 01:23:51.503  WARN 2052 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+2021-02-06 01:23:51.503  WARN 2052 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+2021-02-06 01:23:51.733  INFO 2052 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-06 01:23:51.739  INFO 2052 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-06 01:23:51.739  INFO 2052 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-06 01:23:51.788  INFO 2052 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-06 01:23:51.788  INFO 2052 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 719 ms
+2021-02-06 01:23:51.967  INFO 2052 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-06 01:23:52.009  INFO 2052 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-02-06 01:23:52.076  INFO 2052 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-06 01:23:52.099  INFO 2052 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-06 01:23:52.106  INFO 2052 --- [restartedMain] com.demo.springboot2demo02.App           : Started App in 1.32 seconds (JVM running for 1.979)
+2021-02-06 01:23:54.438  INFO 2052 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-06 01:23:54.438  INFO 2052 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-06 01:23:54.442  INFO 2052 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2021-02-06 01:23:54.462  INFO 2052 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-06 01:23:54.890  INFO 2052 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-06 01:24:47.103  INFO 18336 --- [restartedMain] com.demo.springboot2demo02.App           : Starting App on ZhangJing with PID 18336 (D:\workspace\JavaApp\springbootdemo\springboot2-demo-02\target\classes started by 张静 in D:\workspace\JavaApp\springbootdemo\springboot2-demo-02)
+2021-02-06 01:24:47.105  INFO 18336 --- [restartedMain] com.demo.springboot2demo02.App           : No active profile set, falling back to default profiles: default
+2021-02-06 01:24:47.135  INFO 18336 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-06 01:24:47.135  INFO 18336 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-06 01:24:47.551  WARN 18336 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+2021-02-06 01:24:47.551  WARN 18336 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+2021-02-06 01:24:47.786  INFO 18336 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-06 01:24:47.791  INFO 18336 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-06 01:24:47.791  INFO 18336 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-06 01:24:47.840  INFO 18336 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-06 01:24:47.840  INFO 18336 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 704 ms
+2021-02-06 01:24:48.013  INFO 18336 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-06 01:24:48.056  INFO 18336 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-02-06 01:24:48.123  INFO 18336 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-06 01:24:48.145  INFO 18336 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-06 01:24:48.153  INFO 18336 --- [restartedMain] com.demo.springboot2demo02.App           : Started App in 1.318 seconds (JVM running for 1.876)
+2021-02-06 01:24:50.861  INFO 18336 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-06 01:24:50.862  INFO 18336 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-06 01:24:50.865  INFO 18336 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-02-06 01:24:50.883  INFO 18336 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-06 01:24:51.324  INFO 18336 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-06 01:25:07.121  INFO 24928 --- [restartedMain] com.demo.springboot2demo02.App           : Starting App on ZhangJing with PID 24928 (D:\workspace\JavaApp\springbootdemo\springboot2-demo-02\target\classes started by 张静 in D:\workspace\JavaApp\springbootdemo\springboot2-demo-02)
+2021-02-06 01:25:07.124  INFO 24928 --- [restartedMain] com.demo.springboot2demo02.App           : No active profile set, falling back to default profiles: default
+2021-02-06 01:25:07.154  INFO 24928 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-06 01:25:07.154  INFO 24928 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-06 01:25:07.588  WARN 24928 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+2021-02-06 01:25:07.588  WARN 24928 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+2021-02-06 01:25:07.832  INFO 24928 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-06 01:25:07.839  INFO 24928 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-06 01:25:07.840  INFO 24928 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-06 01:25:07.897  INFO 24928 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-06 01:25:07.898  INFO 24928 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 744 ms
+2021-02-06 01:25:08.088  INFO 24928 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-06 01:25:08.131  INFO 24928 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-02-06 01:25:08.206  INFO 24928 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-06 01:25:08.229  INFO 24928 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-06 01:25:08.237  INFO 24928 --- [restartedMain] com.demo.springboot2demo02.App           : Started App in 1.345 seconds (JVM running for 1.959)
+2021-02-06 01:25:09.785  INFO 24928 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-06 01:25:09.786  INFO 24928 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-06 01:25:09.789  INFO 24928 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-02-06 01:25:09.809  INFO 24928 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-06 01:25:10.238  INFO 24928 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-06 01:26:45.841  INFO 16860 --- [restartedMain] com.demo.springboot2demo02.App           : Starting App on ZhangJing with PID 16860 (D:\workspace\JavaApp\springbootdemo\springboot2-demo-02\target\classes started by 张静 in D:\workspace\JavaApp\springbootdemo\springboot2-demo-02)
+2021-02-06 01:26:45.844  INFO 16860 --- [restartedMain] com.demo.springboot2demo02.App           : No active profile set, falling back to default profiles: default
+2021-02-06 01:26:45.878  INFO 16860 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-06 01:26:45.878  INFO 16860 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-06 01:26:46.351  WARN 16860 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+2021-02-06 01:26:46.351  WARN 16860 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+2021-02-06 01:26:46.595  INFO 16860 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-06 01:26:46.601  INFO 16860 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-06 01:26:46.601  INFO 16860 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-06 01:26:46.652  INFO 16860 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-06 01:26:46.652  INFO 16860 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 774 ms
+2021-02-06 01:26:46.828  INFO 16860 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-06 01:26:46.871  INFO 16860 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-02-06 01:26:46.938  INFO 16860 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-06 01:26:46.960  INFO 16860 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-06 01:26:46.967  INFO 16860 --- [restartedMain] com.demo.springboot2demo02.App           : Started App in 1.378 seconds (JVM running for 1.982)
+2021-02-06 01:26:50.886  INFO 16860 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-06 01:26:50.886  INFO 16860 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-06 01:26:50.889  INFO 16860 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-02-06 01:26:50.911  INFO 16860 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-06 01:26:51.346  INFO 16860 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-06 01:27:48.294  INFO 10204 --- [restartedMain] com.demo.springboot2demo02.App           : Starting App on ZhangJing with PID 10204 (D:\workspace\JavaApp\springbootdemo\springboot2-demo-02\target\classes started by 张静 in D:\workspace\JavaApp\springbootdemo\springboot2-demo-02)
+2021-02-06 01:27:48.296  INFO 10204 --- [restartedMain] com.demo.springboot2demo02.App           : No active profile set, falling back to default profiles: default
+2021-02-06 01:27:48.325  INFO 10204 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-06 01:27:48.325  INFO 10204 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-06 01:27:48.743  WARN 10204 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+2021-02-06 01:27:48.743  WARN 10204 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+2021-02-06 01:27:48.979  INFO 10204 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-06 01:27:48.984  INFO 10204 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-06 01:27:48.984  INFO 10204 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-06 01:27:49.035  INFO 10204 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-06 01:27:49.036  INFO 10204 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 710 ms
+2021-02-06 01:27:49.232  INFO 10204 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-06 01:27:49.279  INFO 10204 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-02-06 01:27:49.346  INFO 10204 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-06 01:27:49.369  INFO 10204 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-06 01:27:49.376  INFO 10204 --- [restartedMain] com.demo.springboot2demo02.App           : Started App in 1.315 seconds (JVM running for 1.914)
+2021-02-06 01:27:52.117  INFO 10204 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-06 01:27:52.118  INFO 10204 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-06 01:27:52.122  INFO 10204 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2021-02-06 01:27:52.142  INFO 10204 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-06 01:27:52.581  INFO 10204 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-06 01:29:27.343  INFO 10204 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-06 01:29:27.344  INFO 10204 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-02-06 01:29:27.349  INFO 10204 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-02-06 01:29:27.502  INFO 10204 --- [restartedMain] com.demo.springboot2demo02.App           : Starting App on ZhangJing with PID 10204 (D:\workspace\JavaApp\springbootdemo\springboot2-demo-02\target\classes started by 张静 in D:\workspace\JavaApp\springbootdemo\springboot2-demo-02)
+2021-02-06 01:29:27.502  INFO 10204 --- [restartedMain] com.demo.springboot2demo02.App           : No active profile set, falling back to default profiles: default
+2021-02-06 01:29:27.626  WARN 10204 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+2021-02-06 01:29:27.626  WARN 10204 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+2021-02-06 01:29:27.677  INFO 10204 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-06 01:29:27.677  INFO 10204 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-06 01:29:27.678  INFO 10204 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-06 01:29:27.692  INFO 10204 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-06 01:29:27.692  INFO 10204 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 188 ms
+2021-02-06 01:29:27.743  INFO 10204 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-06 01:29:27.754  INFO 10204 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-02-06 01:29:27.782  INFO 10204 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-06 01:29:27.790  INFO 10204 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-06 01:29:27.793  INFO 10204 --- [restartedMain] com.demo.springboot2demo02.App           : Started App in 0.312 seconds (JVM running for 100.332)
+2021-02-06 01:29:27.795  INFO 10204 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-02-06 01:30:04.160  INFO 168 --- [restartedMain] com.demo.springboot2demo02.App           : Starting App on ZhangJing with PID 168 (D:\workspace\JavaApp\springbootdemo\springboot2-demo-02\target\classes started by 张静 in D:\workspace\JavaApp\springbootdemo\springboot2-demo-02)
+2021-02-06 01:30:04.162  INFO 168 --- [restartedMain] com.demo.springboot2demo02.App           : No active profile set, falling back to default profiles: default
+2021-02-06 01:30:04.195  INFO 168 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-06 01:30:04.195  INFO 168 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-06 01:30:04.739  WARN 168 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+2021-02-06 01:30:04.739  WARN 168 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+2021-02-06 01:30:04.988  INFO 168 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-06 01:30:04.993  INFO 168 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-06 01:30:04.994  INFO 168 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-06 01:30:05.045  INFO 168 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-06 01:30:05.045  INFO 168 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 849 ms
+2021-02-06 01:30:05.229  INFO 168 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-06 01:30:05.273  INFO 168 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-02-06 01:30:05.354  INFO 168 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-06 01:30:05.377  INFO 168 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-06 01:30:05.384  INFO 168 --- [restartedMain] com.demo.springboot2demo02.App           : Started App in 1.496 seconds (JVM running for 2.11)
+2021-02-06 01:30:08.914  INFO 168 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-06 01:30:08.914  INFO 168 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-06 01:30:08.917  INFO 168 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-02-06 01:30:08.951  INFO 168 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-06 01:30:09.422  INFO 168 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-06 01:30:21.753  INFO 18284 --- [restartedMain] com.demo.springboot2demo02.App           : Starting App on ZhangJing with PID 18284 (D:\workspace\JavaApp\springbootdemo\springboot2-demo-02\target\classes started by 张静 in D:\workspace\JavaApp\springbootdemo\springboot2-demo-02)
+2021-02-06 01:30:21.755  INFO 18284 --- [restartedMain] com.demo.springboot2demo02.App           : No active profile set, falling back to default profiles: default
+2021-02-06 01:30:21.786  INFO 18284 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-06 01:30:21.786  INFO 18284 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-06 01:30:22.226  WARN 18284 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+2021-02-06 01:30:22.227  WARN 18284 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+2021-02-06 01:30:22.472  INFO 18284 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-06 01:30:22.477  INFO 18284 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-06 01:30:22.477  INFO 18284 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-06 01:30:22.527  INFO 18284 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-06 01:30:22.527  INFO 18284 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 741 ms
+2021-02-06 01:30:22.702  INFO 18284 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-06 01:30:22.743  INFO 18284 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-02-06 01:30:22.824  INFO 18284 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-06 01:30:22.847  INFO 18284 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-06 01:30:22.854  INFO 18284 --- [restartedMain] com.demo.springboot2demo02.App           : Started App in 1.346 seconds (JVM running for 1.972)
+2021-02-06 01:30:24.911  INFO 18284 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-06 01:30:24.911  INFO 18284 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-06 01:30:24.915  INFO 18284 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2021-02-06 01:30:24.949  INFO 18284 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-06 01:30:25.390  INFO 18284 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-06 01:30:44.401  INFO 2696 --- [restartedMain] com.demo.springboot2demo02.App           : Starting App on ZhangJing with PID 2696 (D:\workspace\JavaApp\springbootdemo\springboot2-demo-02\target\classes started by 张静 in D:\workspace\JavaApp\springbootdemo\springboot2-demo-02)
+2021-02-06 01:30:44.403  INFO 2696 --- [restartedMain] com.demo.springboot2demo02.App           : No active profile set, falling back to default profiles: default
+2021-02-06 01:30:44.437  INFO 2696 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-06 01:30:44.437  INFO 2696 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-06 01:30:44.862  WARN 2696 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+2021-02-06 01:30:44.862  WARN 2696 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+2021-02-06 01:30:45.110  INFO 2696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-06 01:30:45.115  INFO 2696 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-06 01:30:45.116  INFO 2696 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-06 01:30:45.168  INFO 2696 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-06 01:30:45.168  INFO 2696 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 730 ms
+2021-02-06 01:30:45.347  INFO 2696 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-06 01:30:45.389  INFO 2696 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-02-06 01:30:45.471  INFO 2696 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-06 01:30:45.493  INFO 2696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-06 01:30:45.500  INFO 2696 --- [restartedMain] com.demo.springboot2demo02.App           : Started App in 1.334 seconds (JVM running for 1.919)
+2021-02-06 01:30:46.968  INFO 2696 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-06 01:30:46.968  INFO 2696 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-06 01:30:46.972  INFO 2696 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-02-06 01:30:47.006  INFO 2696 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-06 01:30:47.435  INFO 2696 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-06 01:32:03.161  INFO 14292 --- [restartedMain] com.demo.springboot2demo02.App           : Starting App on ZhangJing with PID 14292 (D:\workspace\JavaApp\springbootdemo\springboot2-demo-02\target\classes started by 张静 in D:\workspace\JavaApp\springbootdemo\springboot2-demo-02)
+2021-02-06 01:32:03.163  INFO 14292 --- [restartedMain] com.demo.springboot2demo02.App           : No active profile set, falling back to default profiles: default
+2021-02-06 01:32:03.194  INFO 14292 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-06 01:32:03.195  INFO 14292 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-06 01:32:03.622  WARN 14292 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+2021-02-06 01:32:03.622  WARN 14292 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+2021-02-06 01:32:03.856  INFO 14292 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-06 01:32:03.861  INFO 14292 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-06 01:32:03.861  INFO 14292 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-06 01:32:03.911  INFO 14292 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-06 01:32:03.911  INFO 14292 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 716 ms
+2021-02-06 01:32:04.089  INFO 14292 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-06 01:32:04.133  INFO 14292 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-02-06 01:32:04.217  INFO 14292 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-06 01:32:04.242  INFO 14292 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-06 01:32:04.250  INFO 14292 --- [restartedMain] com.demo.springboot2demo02.App           : Started App in 1.338 seconds (JVM running for 1.995)
+2021-02-06 01:32:06.094  INFO 14292 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-06 01:32:06.094  INFO 14292 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-06 01:32:06.097  INFO 14292 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-02-06 01:32:06.130  INFO 14292 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-06 01:32:06.565  INFO 14292 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-06 01:33:21.430  INFO 12184 --- [restartedMain] com.demo.springboot2demo02.App           : Starting App on ZhangJing with PID 12184 (D:\workspace\JavaApp\springbootdemo\springboot2-demo-02\target\classes started by 张静 in D:\workspace\JavaApp\springbootdemo\springboot2-demo-02)
+2021-02-06 01:33:21.433  INFO 12184 --- [restartedMain] com.demo.springboot2demo02.App           : No active profile set, falling back to default profiles: default
+2021-02-06 01:33:21.464  INFO 12184 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-06 01:33:21.464  INFO 12184 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-06 01:33:21.916  WARN 12184 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+2021-02-06 01:33:21.916  WARN 12184 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+2021-02-06 01:33:22.167  INFO 12184 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-06 01:33:22.172  INFO 12184 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-06 01:33:22.172  INFO 12184 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-06 01:33:22.223  INFO 12184 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-06 01:33:22.223  INFO 12184 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 758 ms
+2021-02-06 01:33:22.408  INFO 12184 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-06 01:33:22.453  INFO 12184 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-02-06 01:33:22.528  INFO 12184 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-06 01:33:22.552  INFO 12184 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-06 01:33:22.559  INFO 12184 --- [restartedMain] com.demo.springboot2demo02.App           : Started App in 1.378 seconds (JVM running for 1.992)
+2021-02-06 01:33:25.593  INFO 12184 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-06 01:33:25.593  INFO 12184 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-06 01:33:25.597  INFO 12184 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-02-06 01:33:25.619  INFO 12184 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-06 01:33:26.052  INFO 12184 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-06 01:33:39.567  INFO 23984 --- [restartedMain] com.demo.springboot2demo02.App           : Starting App on ZhangJing with PID 23984 (D:\workspace\JavaApp\springbootdemo\springboot2-demo-02\target\classes started by 张静 in D:\workspace\JavaApp\springbootdemo\springboot2-demo-02)
+2021-02-06 01:33:39.569  INFO 23984 --- [restartedMain] com.demo.springboot2demo02.App           : No active profile set, falling back to default profiles: default
+2021-02-06 01:33:39.598  INFO 23984 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-06 01:33:39.599  INFO 23984 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-06 01:33:40.079  WARN 23984 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+2021-02-06 01:33:40.079  WARN 23984 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+2021-02-06 01:33:40.348  INFO 23984 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-06 01:33:40.353  INFO 23984 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-06 01:33:40.354  INFO 23984 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-06 01:33:40.404  INFO 23984 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-06 01:33:40.404  INFO 23984 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 805 ms
+2021-02-06 01:33:40.584  INFO 23984 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-06 01:33:40.628  INFO 23984 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-02-06 01:33:40.708  INFO 23984 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-06 01:33:40.731  INFO 23984 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-06 01:33:40.741  INFO 23984 --- [restartedMain] com.demo.springboot2demo02.App           : Started App in 1.408 seconds (JVM running for 1.976)
+2021-02-06 01:33:43.213  INFO 23984 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-06 01:33:43.213  INFO 23984 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-06 01:33:43.216  INFO 23984 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-02-06 01:33:43.236  INFO 23984 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-06 01:33:43.679  INFO 23984 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
