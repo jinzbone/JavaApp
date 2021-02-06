@@ -15,10 +15,10 @@ public class WebConfig implements WebMvcConfigurer {
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(new MyHandlerInterceptor())
-                .addPathPatterns("/**")
-                .excludePathPatterns("/data")
-                .excludePathPatterns("/","/login");
+//        registry.addInterceptor(new MyHandlerInterceptor())
+//                .addPathPatterns("/**")
+//                .excludePathPatterns("/data")
+//                .excludePathPatterns("/","/login");
     }
 
     @Bean

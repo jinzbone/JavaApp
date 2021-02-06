@@ -59,12 +59,14 @@
         </javaClientGenerator>
 
         <!--指定数据库表-->
-        <!--<tabletableName="sys_permission"domainObjectName="SysPermission"></table>-->
-        <!--<tabletableName="sys_r_p"domainObjectName="SysRolePermission"></table>-->
-        <table tableName="orders" domainObjectName="Orders">
+<!--        <table tableName="orders" domainObjectName="Orders">-->
+<!--            <property name="useActualColumnNames" value="false"/>-->
+<!--        </table>-->
+<!--        <table tableName="sys_resources" domainObjectName="SysResources">-->
+<!--            <property name="useActualColumnNames" value="false"/>-->
+<!--        </table>-->
+        <table tableName="sys_user" domainObjectName="SysUser">
             <property name="useActualColumnNames" value="false"/>
         </table>
-        <!--<tabletableName="sys_users"domainObjectName="SysUser"></table>-->
-        <!--<tabletableName="sys_user_role"domainObjectName="SysUserRole"></table>-->
     </context>
 </generatorConfiguration>
