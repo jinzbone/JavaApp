@@ -1,0 +1,24 @@
+user:
+  name: 张三
+  age: 12
+
+logging:
+  file:
+    name: logging.txt
+
+# 日期类型转换成字符串返回
+spring:
+  jackson:
+    date-format: yyyy-mm-dd HH:mm:ss
+    time-zone: GMT+8
+  main:
+    allow-bean-definition-overriding: true
+# 日期类型转换成时间戳返回
+#spring:
+#  jackson:
+#    serialization: false
+#  spring.jackson.serialization.write-dates-as-timestamps=true
+
+
+
+#    static-path-pattern: /resources/**  # 会导致 welcome 页失效、 favicon.ico 失效
