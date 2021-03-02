@@ -6,6 +6,10 @@
 
 包括 LeetCode每日一题，剑指Offer，LeetCode Top 100热题，各大厂笔试面试题。
 
+# [JavaUtils](https://github.com/jinzbone/JavaApp/tree/master/JavaUtils)
+
+自定义工具类，包括操作时间、字符串等开发过程中常用的函数。
+
 # [springmvcdemo](https://github.com/jinzbone/JavaApp/tree/master/springmvcdemo)
 
 ## [Spring MVC + MyBatis 整合样例](https://github.com/jinzbone/JavaApp/tree/master/springmvcdemo/SSMsample)
