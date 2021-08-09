@@ -1,0 +1,94 @@
+2021-08-09 === [main] === INFO  === com.example.demo.DemoApplication ==== Starting DemoApplication using Java 1.8.0_181 on ZhangJing with PID 19568 (D:\Jz-work\JavaApp\demo\target\classes started by jinzbone in D:\Jz-work\JavaApp\demo)
+2021-08-09 === [main] === INFO  === com.example.demo.DemoApplication ==== The following profiles are active: dev
+2021-08-09 === [main] === INFO  === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat initialized with port(s): 8081 (http)
+2021-08-09 === [main] === INFO  === org.apache.catalina.core.StandardService ==== Starting service [Tomcat]
+2021-08-09 === [main] === INFO  === org.apache.catalina.core.StandardEngine ==== Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-09 === [main] === INFO  === o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] ==== Initializing Spring embedded WebApplicationContext
+2021-08-09 === [main] === INFO  === o.s.b.w.s.c.ServletWebServerApplicationContext ==== Root WebApplicationContext: initialization completed in 795 ms
+2021-08-09 === [main] === INFO  === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat started on port(s): 8081 (http) with context path ''
+2021-08-09 === [main] === INFO  === com.example.demo.DemoApplication ==== Started DemoApplication in 1.538 seconds (JVM running for 2.213)
+2021-08-09 === [http-nio-8081-exec-1] === INFO  === o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] ==== Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-09 === [http-nio-8081-exec-1] === INFO  === org.springframework.web.servlet.DispatcherServlet ==== Initializing Servlet 'dispatcherServlet'
+2021-08-09 === [http-nio-8081-exec-1] === INFO  === org.springframework.web.servlet.DispatcherServlet ==== Completed initialization in 1 ms
+2021-08-09 === [http-nio-8081-exec-1] === WARN  === o.s.w.s.m.support.DefaultHandlerExceptionResolver ==== Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'name' for method parameter type String is not present]
+2021-08-09 === [main] === INFO  === com.example.demo.DemoApplication ==== Starting DemoApplication using Java 1.8.0_181 on ZhangJing with PID 17776 (D:\Jz-work\JavaApp\demo\target\classes started by jinzbone in D:\Jz-work\JavaApp\demo)
+2021-08-09 === [main] === INFO  === com.example.demo.DemoApplication ==== The following profiles are active: dev
+2021-08-09 === [main] === INFO  === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat initialized with port(s): 8081 (http)
+2021-08-09 === [main] === INFO  === org.apache.catalina.core.StandardService ==== Starting service [Tomcat]
+2021-08-09 === [main] === INFO  === org.apache.catalina.core.StandardEngine ==== Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-09 === [main] === INFO  === o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] ==== Initializing Spring embedded WebApplicationContext
+2021-08-09 === [main] === INFO  === o.s.b.w.s.c.ServletWebServerApplicationContext ==== Root WebApplicationContext: initialization completed in 663 ms
+2021-08-09 === [main] === INFO  === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat started on port(s): 8081 (http) with context path ''
+2021-08-09 === [main] === INFO  === com.example.demo.DemoApplication ==== Started DemoApplication in 1.255 seconds (JVM running for 1.833)
+2021-08-09 === [http-nio-8081-exec-1] === INFO  === o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] ==== Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-09 === [http-nio-8081-exec-1] === INFO  === org.springframework.web.servlet.DispatcherServlet ==== Initializing Servlet 'dispatcherServlet'
+2021-08-09 === [http-nio-8081-exec-1] === INFO  === org.springframework.web.servlet.DispatcherServlet ==== Completed initialization in 1 ms
+2021-08-09 === [main] === INFO  === com.example.demo.DemoApplication ==== Starting DemoApplication using Java 1.8.0_181 on ZhangJing with PID 20860 (D:\Jz-work\JavaApp\demo\target\classes started by jinzbone in D:\Jz-work\JavaApp\demo)
+2021-08-09 === [main] === INFO  === com.example.demo.DemoApplication ==== The following profiles are active: dev
+2021-08-09 === [main] === INFO  === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat initialized with port(s): 8081 (http)
+2021-08-09 === [main] === INFO  === org.apache.catalina.core.StandardService ==== Starting service [Tomcat]
+2021-08-09 === [main] === INFO  === org.apache.catalina.core.StandardEngine ==== Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-09 === [main] === INFO  === o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] ==== Initializing Spring embedded WebApplicationContext
+2021-08-09 === [main] === INFO  === o.s.b.w.s.c.ServletWebServerApplicationContext ==== Root WebApplicationContext: initialization completed in 664 ms
+2021-08-09 === [main] === INFO  === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat started on port(s): 8081 (http) with context path ''
+2021-08-09 === [main] === INFO  === com.example.demo.DemoApplication ==== Started DemoApplication in 1.265 seconds (JVM running for 1.831)
+2021-08-09 === [http-nio-8081-exec-1] === INFO  === o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] ==== Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-09 === [http-nio-8081-exec-1] === INFO  === org.springframework.web.servlet.DispatcherServlet ==== Initializing Servlet 'dispatcherServlet'
+2021-08-09 === [http-nio-8081-exec-1] === INFO  === org.springframework.web.servlet.DispatcherServlet ==== Completed initialization in 1 ms
+2021-08-09 === [main] === INFO  === com.example.demo.DemoApplication ==== Starting DemoApplication using Java 1.8.0_181 on ZhangJing with PID 21068 (D:\Jz-work\JavaApp\demo\target\classes started by jinzbone in D:\Jz-work\JavaApp\demo)
+2021-08-09 === [main] === INFO  === com.example.demo.DemoApplication ==== The following profiles are active: dev
+2021-08-09 === [main] === INFO  === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat initialized with port(s): 8081 (http)
+2021-08-09 === [main] === INFO  === org.apache.catalina.core.StandardService ==== Starting service [Tomcat]
+2021-08-09 === [main] === INFO  === org.apache.catalina.core.StandardEngine ==== Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-09 === [main] === INFO  === o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] ==== Initializing Spring embedded WebApplicationContext
+2021-08-09 === [main] === INFO  === o.s.b.w.s.c.ServletWebServerApplicationContext ==== Root WebApplicationContext: initialization completed in 662 ms
+2021-08-09 === [main] === INFO  === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat started on port(s): 8081 (http) with context path ''
+2021-08-09 === [main] === INFO  === com.example.demo.DemoApplication ==== Started DemoApplication in 1.255 seconds (JVM running for 1.814)
+2021-08-09 === [main] === INFO  === com.example.demo.DemoApplication ==== Starting DemoApplication using Java 1.8.0_181 on ZhangJing with PID 16772 (D:\Jz-work\JavaApp\demo\target\classes started by jinzbone in D:\Jz-work\JavaApp\demo)
+2021-08-09 === [main] === INFO  === com.example.demo.DemoApplication ==== The following profiles are active: dev
+2021-08-09 === [main] === INFO  === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat initialized with port(s): 8081 (http)
+2021-08-09 === [main] === INFO  === org.apache.catalina.core.StandardService ==== Starting service [Tomcat]
+2021-08-09 === [main] === INFO  === org.apache.catalina.core.StandardEngine ==== Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-09 === [main] === INFO  === o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] ==== Initializing Spring embedded WebApplicationContext
+2021-08-09 === [main] === INFO  === o.s.b.w.s.c.ServletWebServerApplicationContext ==== Root WebApplicationContext: initialization completed in 661 ms
+2021-08-09 === [main] === INFO  === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat started on port(s): 8081 (http) with context path ''
+2021-08-09 === [main] === INFO  === com.example.demo.DemoApplication ==== Started DemoApplication in 1.292 seconds (JVM running for 1.905)
+2021-08-09 === [http-nio-8081-exec-1] === INFO  === o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] ==== Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-09 === [http-nio-8081-exec-1] === INFO  === org.springframework.web.servlet.DispatcherServlet ==== Initializing Servlet 'dispatcherServlet'
+2021-08-09 === [http-nio-8081-exec-1] === INFO  === org.springframework.web.servlet.DispatcherServlet ==== Completed initialization in 1 ms
+2021-08-09 === [main] === INFO  === com.example.demo.DemoApplication ==== Starting DemoApplication using Java 1.8.0_181 on ZhangJing with PID 17652 (D:\Jz-work\JavaApp\demo\target\classes started by jinzbone in D:\Jz-work\JavaApp\demo)
+2021-08-09 === [main] === INFO  === com.example.demo.DemoApplication ==== The following profiles are active: dev
+2021-08-09 === [main] === INFO  === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat initialized with port(s): 8081 (http)
+2021-08-09 === [main] === INFO  === org.apache.catalina.core.StandardService ==== Starting service [Tomcat]
+2021-08-09 === [main] === INFO  === org.apache.catalina.core.StandardEngine ==== Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-09 === [main] === INFO  === o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] ==== Initializing Spring embedded WebApplicationContext
+2021-08-09 === [main] === INFO  === o.s.b.w.s.c.ServletWebServerApplicationContext ==== Root WebApplicationContext: initialization completed in 663 ms
+2021-08-09 === [main] === INFO  === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat started on port(s): 8081 (http) with context path ''
+2021-08-09 === [main] === INFO  === com.example.demo.DemoApplication ==== Started DemoApplication in 1.267 seconds (JVM running for 1.835)
+2021-08-09 === [http-nio-8081-exec-1] === INFO  === o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] ==== Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-09 === [http-nio-8081-exec-1] === INFO  === org.springframework.web.servlet.DispatcherServlet ==== Initializing Servlet 'dispatcherServlet'
+2021-08-09 === [http-nio-8081-exec-1] === INFO  === org.springframework.web.servlet.DispatcherServlet ==== Completed initialization in 0 ms
+2021-08-09 === [main] === INFO  === com.example.demo.DemoApplication ==== Starting DemoApplication using Java 1.8.0_181 on ZhangJing with PID 13456 (D:\Jz-work\JavaApp\demo\target\classes started by jinzbone in D:\Jz-work\JavaApp\demo)
+2021-08-09 === [main] === INFO  === com.example.demo.DemoApplication ==== The following profiles are active: dev
+2021-08-09 === [main] === INFO  === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat initialized with port(s): 8081 (http)
+2021-08-09 === [main] === INFO  === org.apache.catalina.core.StandardService ==== Starting service [Tomcat]
+2021-08-09 === [main] === INFO  === org.apache.catalina.core.StandardEngine ==== Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-09 === [main] === INFO  === o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] ==== Initializing Spring embedded WebApplicationContext
+2021-08-09 === [main] === INFO  === o.s.b.w.s.c.ServletWebServerApplicationContext ==== Root WebApplicationContext: initialization completed in 656 ms
+2021-08-09 === [main] === INFO  === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat started on port(s): 8081 (http) with context path ''
+2021-08-09 === [main] === INFO  === com.example.demo.DemoApplication ==== Started DemoApplication in 1.238 seconds (JVM running for 1.794)
+2021-08-09 === [http-nio-8081-exec-1] === INFO  === o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] ==== Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-09 === [http-nio-8081-exec-1] === INFO  === org.springframework.web.servlet.DispatcherServlet ==== Initializing Servlet 'dispatcherServlet'
+2021-08-09 === [http-nio-8081-exec-1] === INFO  === org.springframework.web.servlet.DispatcherServlet ==== Completed initialization in 1 ms
+2021-08-09 === [main] === INFO  === com.example.demo.DemoApplication ==== Starting DemoApplication using Java 1.8.0_181 on ZhangJing with PID 17192 (D:\Jz-work\JavaApp\demo\target\classes started by jinzbone in D:\Jz-work\JavaApp\demo)
+2021-08-09 === [main] === INFO  === com.example.demo.DemoApplication ==== The following profiles are active: dev
+2021-08-09 === [main] === INFO  === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat initialized with port(s): 8081 (http)
+2021-08-09 === [main] === INFO  === org.apache.catalina.core.StandardService ==== Starting service [Tomcat]
+2021-08-09 === [main] === INFO  === org.apache.catalina.core.StandardEngine ==== Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-09 === [main] === INFO  === o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] ==== Initializing Spring embedded WebApplicationContext
+2021-08-09 === [main] === INFO  === o.s.b.w.s.c.ServletWebServerApplicationContext ==== Root WebApplicationContext: initialization completed in 654 ms
+2021-08-09 === [main] === INFO  === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat started on port(s): 8081 (http) with context path ''
+2021-08-09 === [main] === INFO  === com.example.demo.DemoApplication ==== Started DemoApplication in 1.258 seconds (JVM running for 1.817)
+2021-08-09 === [http-nio-8081-exec-1] === INFO  === o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] ==== Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-09 === [http-nio-8081-exec-1] === INFO  === org.springframework.web.servlet.DispatcherServlet ==== Initializing Servlet 'dispatcherServlet'
+2021-08-09 === [http-nio-8081-exec-1] === INFO  === org.springframework.web.servlet.DispatcherServlet ==== Completed initialization in 1 ms
