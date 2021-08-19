@@ -1,2 +1,13 @@
-/Users/zhangjing/workspace/JavaApp/demo/src/main/java/com/example/demo/DemoApplication.java
-/Users/zhangjing/workspace/JavaApp/demo/src/main/java/com/example/demo/server/controller/HelloController.java
+D:\Jz-work\JavaApp\demo\src\main\java\com\example\demo\basemapper\SysRoleSqlProvider.java
+D:\Jz-work\JavaApp\demo\src\main\java\com\example\demo\basemodel\SysRole.java
+D:\Jz-work\JavaApp\demo\src\main\java\com\example\demo\config\DataSourcePropConfig.java
+D:\Jz-work\JavaApp\demo\src\main\java\com\example\demo\server\controller\HelloController.java
+D:\Jz-work\JavaApp\demo\src\main\java\com\example\demo\basemodel\SysRoleExample.java
+D:\Jz-work\JavaApp\demo\src\main\java\com\example\demo\DemoApplication.java
+D:\Jz-work\JavaApp\demo\src\main\java\com\example\demo\server\controller\FileController.java
+D:\Jz-work\JavaApp\demo\src\main\java\com\example\demo\server\service\HelloService.java
+D:\Jz-work\JavaApp\demo\src\main\java\com\example\demo\common\CommonReturnType.java
+D:\Jz-work\JavaApp\demo\src\main\java\com\example\demo\server\service\impl\HelloServiceImpl.java
+D:\Jz-work\JavaApp\demo\src\main\java\com\example\demo\basemodel\User.java
+D:\Jz-work\JavaApp\demo\src\main\java\com\example\demo\basemapper\SysRoleMapper.java
+D:\Jz-work\JavaApp\demo\src\main\java\com\example\demo\config\Config.java

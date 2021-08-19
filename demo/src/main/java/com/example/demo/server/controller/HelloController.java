@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping(value = "/users")
+@RequestMapping
 public class HelloController {
 
     @Autowired
@@ -22,9 +22,10 @@ public class HelloController {
     SysRoleMapper sysRoleMapper;
 
 
-    @GetMapping("/{name}")
-    public String index(@PathVariable String name) {
-        return "用户：ID "+name;
+    @GetMapping("/hello")
+    public String index() {
+        return "Hello World";
     }
+
 
 }

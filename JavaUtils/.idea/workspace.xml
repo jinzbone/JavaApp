@@ -6,45 +6,23 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92f5fba5-aea7-4c9b-9401-241b6f35d78e" name="Default Changelist" comment="" />
+    <list default="true" id="6b5d9654-f148-4ccf-bd8c-cb3865fbccfc" name="默认的" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Jsp File" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="nonRecursive" value="true" />
-      </MavenGeneralSettings>
-    </option>
+  <component name="ProjectId" id="1ww0FE8seC4zlStzrOtkxstj9jx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="新增" />
   </component>
-  <component name="ProjectId" id="1uvo7DmjcsURG9AU4HdMgNdWhio" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -54,58 +32,25 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.JRebelSettingsComponent" />
-  </component>
-  <component name="RebelAgentSelection">
-    <selection>jr</selection>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspace\JavaApp\JavaUtils\src\main\java" />
+      <recent name="D:\Jz-work\JavaApp\JavaUtils\src\main\java\com" />
+      <recent name="D:\Jz-work\JavaApp\JavaUtils\src\main\java\com\utils" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jz.App" />
-      <module name="JavaUtils" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="应用程序.App" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="92f5fba5-aea7-4c9b-9401-241b6f35d78e" name="Default Changelist" comment="" />
-      <created>1625555253081</created>
+      <changelist id="6b5d9654-f148-4ccf-bd8c-cb3865fbccfc" name="默认的" comment="" />
+      <created>1629354237788</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1625555253081</updated>
-      <workItem from="1625555256340" duration="10578000" />
-      <workItem from="1626139162083" duration="2889000" />
-      <workItem from="1626313161412" duration="1900000" />
-      <workItem from="1626343824096" duration="1462000" />
-      <workItem from="1626410664794" duration="3319000" />
-      <workItem from="1626418196347" duration="1051000" />
-      <workItem from="1626941156134" duration="2845000" />
-      <workItem from="1627022810072" duration="144000" />
-      <workItem from="1627022967267" duration="1280000" />
-      <workItem from="1627263214077" duration="29000" />
-      <workItem from="1627263255877" duration="1203000" />
-      <workItem from="1627264476974" duration="5987000" />
-      <workItem from="1627612127232" duration="621000" />
-      <workItem from="1628059948333" duration="594000" />
+      <updated>1629354237788</updated>
+      <workItem from="1629354241863" duration="1318000" />
     </task>
     <servers />
   </component>
@@ -122,76 +67,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="842" y="381" width="549" height="485" key="#Notifications" timestamp="1627264494683">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="842" y="381" width="549" height="485" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1627264494683" />
-    <state x="676" y="349" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1625563942098">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="676" y="349" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1625563942098" />
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1626412301644">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1626412301644" />
-    <state x="818" y="265" width="660" height="509" key="EnvironmentVariablesDialog" timestamp="1626412301091">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="818" y="265" width="660" height="509" key="EnvironmentVariablesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1626412301091" />
-    <state width="1877" height="131" key="GridCell.Tab.0.bottom" timestamp="1627286397917">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="131" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1627286397917" />
-    <state width="1877" height="131" key="GridCell.Tab.0.center" timestamp="1627286397917">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="131" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1627286397917" />
-    <state width="1877" height="131" key="GridCell.Tab.0.left" timestamp="1627286397916">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="131" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1627286397916" />
-    <state width="1877" height="131" key="GridCell.Tab.0.right" timestamp="1627286397917">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="131" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1627286397917" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1626430831437">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1626430831437" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1626430831437">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1626430831437" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1626430831437">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1626430831437" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1626430831437">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1626430831437" />
-    <state x="490" y="174" key="Maven.ArtifactSearchDialog" timestamp="1626140157925">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="490" y="174" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1626140157925" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1627265238281">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1627265238281" />
-    <state x="334" y="180" key="new project wizard" timestamp="1626412599793">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1626412599793" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1626139420132">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1626139420132" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1625564782470">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1625564782470" />
   </component>
 </project>
