@@ -2,6 +2,7 @@ package com.example.demo;
 
 import org.junit.jupiter.api.*;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -23,6 +24,9 @@ class DemoApplicationTests {
 	private MockMvc mockMvc;
 	@Autowired
 	JdbcTemplate jdbcTemplate;
+	@Value("${datasource.password}")
+	String dbpwd;
+
 	@BeforeAll
 	public static void ball(){
 		System.out.println("启动测试！");
@@ -56,6 +60,10 @@ class DemoApplicationTests {
 		System.out.println("测试assert");
 		System.out.println(jdbcTemplate);
 		Assert.hasText("abc","a");
+	}
+	@Test
+	public void testJasypt(){
+		System.out.println(dbpwd);
 	}
 
 }
