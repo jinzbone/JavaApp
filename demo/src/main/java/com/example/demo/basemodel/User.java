@@ -1,15 +1,24 @@
 package com.example.demo.basemodel;
 
-import org.springframework.beans.factory.InitializingBean;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.stereotype.Component;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+import lombok.Data;
 
-public class User{
+import javax.validation.constraints.NotNull;
 
-    public User(@Value("${typename}") String typename){
-        System.out.println("typename111: "+typename);
-    }
+@Data
+@ApiModel(description="用户实体")
+public class User {
 
+    @ApiModelProperty("用户编号")
+    private Long id;
+
+    @NotNull
+    @ApiModelProperty("用户姓名")
+    private String name;
+
+    @NotNull
+    @ApiModelProperty("用户年龄")
+    private Integer age;
 
 }

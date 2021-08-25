@@ -1,14 +1,13 @@
 package com.example.demo;
 
-import com.example.demo.config.DataSourcePropConfig;
 import org.mybatis.spring.annotation.MapperScan;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
 @MapperScan(basePackages = {"com.example.demo.basemapper"})
+@EnableSwagger2
 public class DemoApplication {
 
 	public static void main(String[] args) {

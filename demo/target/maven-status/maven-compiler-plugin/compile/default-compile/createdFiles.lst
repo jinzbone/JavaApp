@@ -1,4 +1,0 @@
-com\example\demo\DemoApplication.class
-com\example\demo\server\service\HelloService.class
-com\example\demo\server\service\impl\HelloServiceImpl.class
-com\example\demo\server\controller\HelloController.class
