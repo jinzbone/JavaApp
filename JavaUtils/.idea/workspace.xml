@@ -11,67 +11,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b5d9654-f148-4ccf-bd8c-cb3865fbccfc" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaFuncTest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/JavaUtils.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/utils/JzIdUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JavaFuncTest-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JavaFuncTest.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JavaFuncTest/WEB-INF/classes/com/Cons.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JavaFuncTest/WEB-INF/classes/com/JavaFuncTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JavaFuncTest/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JavaFuncTest/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/common/Cons.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/helper/JwtConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/model/CommonReturnType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/utils/AEStest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/utils/JzDateUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/utils/JzEncryUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/utils/JzFileUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/utils/JzJsonUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/utils/JzSqlUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/utils/JzStrUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils/JzEncryUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utils/JzEncryUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/target/classes/application-dev.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/target/classes/application-prod.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/target/classes/application-test.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/target/classes/com/example/demo/DemoApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/target/classes/com/example/demo/basemapper/SysRoleMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/target/classes/com/example/demo/basemapper/SysRoleSqlProvider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/target/classes/com/example/demo/basemodel/SysRole.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/target/classes/com/example/demo/basemodel/SysRoleExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/target/classes/com/example/demo/basemodel/SysRoleExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/target/classes/com/example/demo/basemodel/SysRoleExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/target/classes/com/example/demo/basemodel/SysRoleExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/target/classes/com/example/demo/basemodel/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/target/classes/com/example/demo/common/CommonReturnType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/target/classes/com/example/demo/config/Config.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/target/classes/com/example/demo/config/DataSourcePropConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/target/classes/com/example/demo/server/controller/FileController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/target/classes/com/example/demo/server/controller/HelloController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/target/classes/com/example/demo/server/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/target/classes/com/example/demo/server/service/HelloService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/target/classes/com/example/demo/server/service/impl/HelloServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/target/classes/mybatis-generator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/target/test-classes/com/example/demo/DemoApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -88,8 +66,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/utils" />
@@ -140,6 +120,9 @@
       <workItem from="1629878739655" duration="1571000" />
       <workItem from="1630049555752" duration="2977000" />
       <workItem from="1630476073511" duration="1544000" />
+      <workItem from="1630484687643" duration="2265000" />
+      <workItem from="1630546094650" duration="167000" />
+      <workItem from="1630574679511" duration="894000" />
     </task>
     <servers />
   </component>
@@ -159,22 +142,22 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="401" key="GridCell.Tab.0.bottom" timestamp="1630477631186">
+    <state width="1877" height="249" key="GridCell.Tab.0.bottom" timestamp="1630577338545">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="401" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1630477631186" />
-    <state width="1877" height="401" key="GridCell.Tab.0.center" timestamp="1630477631186">
+    <state width="1877" height="249" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1630577338545" />
+    <state width="1877" height="249" key="GridCell.Tab.0.center" timestamp="1630577338545">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="401" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1630477631186" />
-    <state width="1877" height="401" key="GridCell.Tab.0.left" timestamp="1630477631186">
+    <state width="1877" height="249" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1630577338545" />
+    <state width="1877" height="249" key="GridCell.Tab.0.left" timestamp="1630577338544">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="401" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1630477631186" />
-    <state width="1877" height="401" key="GridCell.Tab.0.right" timestamp="1630477631186">
+    <state width="1877" height="249" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1630577338544" />
+    <state width="1877" height="249" key="GridCell.Tab.0.right" timestamp="1630577338545">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="401" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1630477631186" />
+    <state width="1877" height="249" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1630577338545" />
     <state x="660" y="252" width="599" height="536" key="find.popup" timestamp="1630477305475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
