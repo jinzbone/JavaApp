@@ -28,7 +28,7 @@ public class HelloController {
     @ApiOperation(value = "say 哈啰", notes = "say 哈啰 》》 ")
     @GetMapping("/hello")
     public String index() {
-        return "Hello World";
+        return config.getTypename();
     }
 
 
