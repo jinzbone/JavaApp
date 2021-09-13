@@ -61,7 +61,7 @@
         <!--指定数据库表-->
         <!--<tabletableName="sys_permission"domainObjectName="SysPermission"></table>-->
         <!--<tabletableName="sys_r_p"domainObjectName="SysRolePermission"></table>-->
-        <table tableName="sys_role" domainObjectName="SysRole">
+        <table tableName="customers" domainObjectName="Customers">
             <property name="useActualColumnNames" value="false"/>
         </table>
         <!--<tabletableName="sys_users"domainObjectName="SysUser"></table>-->

@@ -1,7 +1,6 @@
 package com.example.demo.server.controller;
-
-import com.example.demo.basemapper.SysRoleMapper;
-import com.example.demo.basemodel.SysRoleExample;
+import com.example.demo.basemapper.CustomersMapper;
+import com.example.demo.basemodel.Customers;
 import com.example.demo.basemodel.User;
 import com.example.demo.config.Config;
 import com.example.demo.config.DataSourcePropConfig;
@@ -22,13 +21,14 @@ public class HelloController {
     Config config;
 
     @Autowired
-    SysRoleMapper sysRoleMapper;
-
+    CustomersMapper customersMapper;
 
     @ApiOperation(value = "say 哈啰", notes = "say 哈啰 》》 ")
     @GetMapping("/hello")
-    public String index() {
-        return config.getTypename();
+    public void index() {
+        Customers customers = new Customers();
+        customers.setCustName("张静");
+        customersMapper.insert(customers);
     }
 
 
