@@ -1,5 +1,7 @@
 package com.example.demo;
 
+import com.example.demo.basemodel.User;
+import com.example.demo.server.service.UserService;
 import org.junit.jupiter.api.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -8,6 +10,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.util.Assert;
+
+import java.util.List;
 
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
@@ -26,7 +30,34 @@ class DemoApplicationTests {
 	JdbcTemplate jdbcTemplate;
 	@Value("${datasource.password}")
 	String dbpwd;
+	@Autowired
+	private UserService userSerivce;
 
+	@Test
+	public void test() throws Exception {
+		userSerivce.deleteAllUsers();
+
+		// 插入5个用户
+		userSerivce.create("Tom", 10);
+		userSerivce.create("Mike", 11);
+		userSerivce.create("Didispace", 30);
+		userSerivce.create("Oscar", 21);
+		userSerivce.create("Linda", 17);
+
+		// 查询名为Oscar的用户，判断年龄是否匹配
+		List<User> userList = userSerivce.getByName("Oscar");
+		Assertions.assertEquals(21, userList.get(0).getAge().intValue());
+
+		// 查数据库，应该有5个用户
+		Assertions.assertEquals(5, userSerivce.getAllUsers());
+
+		// 删除两个用户
+		userSerivce.deleteByName("Tom");
+		userSerivce.deleteByName("Mike");
+
+		// 查数据库，应该有5个用户
+		Assertions.assertEquals(3, userSerivce.getAllUsers());
+	}
 	@BeforeAll
 	public static void ball(){
 		System.out.println("启动测试！");
@@ -57,7 +88,7 @@ class DemoApplicationTests {
 	@DisplayName("测试assert")
 	@RepeatedTest(5)
 //	@Test
-	public void test(){
+	public void test1(){
 		System.out.println("测试assert");
 		System.out.println(jdbcTemplate);
 		Assert.hasText("abc","a");
@@ -66,5 +97,4 @@ class DemoApplicationTests {
 	public void testJasypt(){
 		System.out.println(dbpwd);
 	}
-
 }

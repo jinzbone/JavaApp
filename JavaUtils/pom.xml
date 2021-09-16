@@ -52,19 +52,19 @@
     <finalName>JavaUtils</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
-          <plugin>
-              <groupId>org.apache.maven.plugins</groupId>
-              <artifactId>maven-jar-plugin</artifactId>
-              <version>3.2.0</version>
-              <configuration>
-                  <archive>
-                      <manifest>
-                          <addClasspath>true</addClasspath>
-                          <mainClass>com.Main</mainClass>
-                      </manifest>
-                  </archive>
-              </configuration>
-          </plugin>
+<!--          <plugin>-->
+<!--              <groupId>org.apache.maven.plugins</groupId>-->
+<!--              <artifactId>maven-jar-plugin</artifactId>-->
+<!--              <version>3.2.0</version>-->
+<!--              <configuration>-->
+<!--                  <archive>-->
+<!--                      <manifest>-->
+<!--                          <addClasspath>true</addClasspath>-->
+<!--                          <mainClass>com.Main</mainClass>-->
+<!--                      </manifest>-->
+<!--                  </archive>-->
+<!--              </configuration>-->
+<!--          </plugin>-->
 <!--        打包指定Main-方式2-不可行-->
           <!--        <plugin>-->
           <!--          <groupId>org.apache.maven.plugins</groupId>-->
@@ -87,21 +87,21 @@
           <!--        </executions>-->
           <!--        </plugin>-->
 <!--        打包指定Main-方式1-可行-->
-<!--        <plugin>-->
-<!--          <groupId>org.apache.maven.plugins</groupId>-->
-<!--          <artifactId>maven-assembly-plugin</artifactId>-->
-<!--          <version>2.5.5</version>-->
-<!--          <configuration>-->
-<!--            <archive>-->
-<!--              <manifest>-->
-<!--                <mainClass>com.Main</mainClass>-->
-<!--              </manifest>-->
-<!--            </archive>-->
-<!--            <descriptorRefs>-->
-<!--              <descriptorRef>jar-with-dependencies</descriptorRef>-->
-<!--            </descriptorRefs>-->
-<!--          </configuration>-->
-<!--        </plugin>-->
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-assembly-plugin</artifactId>
+          <version>2.5.5</version>
+          <configuration>
+            <archive>
+              <manifest>
+                <mainClass>com.Main</mainClass>
+              </manifest>
+            </archive>
+            <descriptorRefs>
+              <descriptorRef>jar-with-dependencies</descriptorRef>
+            </descriptorRefs>
+          </configuration>
+        </plugin>
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>
           <version>3.1.0</version>
