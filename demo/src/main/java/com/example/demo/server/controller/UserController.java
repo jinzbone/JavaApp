@@ -3,8 +3,11 @@ package com.example.demo.server.controller;
 import com.example.demo.basemapper.CustomersMapper;
 import com.example.demo.basemodel.Customers;
 import com.example.demo.basemodel.CustomersExample;
+import com.example.demo.basemodel.User;
+import com.example.demo.server.service.UserRepository;
 import com.example.demo.server.service.UserService;
 import lombok.extern.slf4j.Slf4j;
+import org.bson.assertions.Assertions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,8 +27,10 @@ public class UserController {
 
 
     @Autowired
-    UserService userService;
+    private UserService userService;
 
+    @Autowired
+    private UserRepository userRepository;
 
     @ResponseBody
     @GetMapping("/hello")
@@ -33,6 +38,28 @@ public class UserController {
         logger.info("第一次查询："+userService.findByName());
         logger.info("第二次查询："+userService.findByName());
         return "hello";
+    }
+
+    @ResponseBody
+    @GetMapping("/create")
+    public void create() throws Exception {
+//        userRepository.createCollection();
+        logger.info(userRepository.createCollectionFixedSize().toString());
+        logger.info(userRepository.createCollectionValidation().toString());
+    }
+
+    @ResponseBody
+    @GetMapping("/insert")
+    public void insert() throws Exception {
+        logger.info(userRepository.insert().toString());
+        logger.info(userRepository.insertMany().toString());
+    }
+
+    @ResponseBody
+    @GetMapping("/find")
+    public void find() throws Exception {
+        logger.info(userRepository.findAll().toString());
+        logger.info(userRepository.findById().toString());
     }
 
 }
