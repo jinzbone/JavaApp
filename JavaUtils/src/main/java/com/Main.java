@@ -17,7 +17,7 @@ import static com.utils.JzEncryUtils.getDigest;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        System.out.println(JzDateUtils.formatDay(JzDateUtils.minusNDay(new Date(),7)));
+        System.out.println(JzDateUtils.formatDay(JzDateUtils.minusNDay(new Date(),49)));
         String s = "3147483647";
         System.out.println(Long.parseLong(s));
     }
