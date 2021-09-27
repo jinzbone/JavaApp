@@ -1,9 +1,9 @@
-2021-09-26 === [main] === INFO  === com.example.demo.DemoApplication ==== Starting DemoApplication using Java 1.8.0_181 on ZhangJing with PID 7512 (D:\Jz-workspace\JavaApp\demo\target\classes started by jinzbone in D:\Jz-workspace\JavaApp\demo)
-2021-09-26 === [main] === INFO  === com.example.demo.DemoApplication ==== The following profiles are active: dev
-2021-09-26 === [main] === WARN  === org.springframework.data.convert.CustomConversions ==== Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
-2021-09-26 === [main] === WARN  === org.springframework.data.convert.CustomConversions ==== Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
-2021-09-26 === [main] === WARN  === o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext ==== Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'messageReceive2' defined in file [D:\Jz-workspace\JavaApp\demo\target\classes\com\example\demo\server\messge\MessageReceive2.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.demo.server.messge.MessageReceive2]: Constructor threw exception; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379
-2021-09-26 === [main] === ERROR === org.springframework.boot.SpringApplication ==== Application run failed
+2021-09-27 === [main] === INFO  === com.example.demo.DemoApplication ==== Starting DemoApplication using Java 1.8.0_181 on ZhangJing with PID 20884 (D:\Jz-workspace\JavaApp\demo\target\classes started by jinzbone in D:\Jz-workspace\JavaApp\demo)
+2021-09-27 === [main] === INFO  === com.example.demo.DemoApplication ==== The following profiles are active: dev
+2021-09-27 === [main] === WARN  === org.springframework.data.convert.CustomConversions ==== Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-09-27 === [main] === WARN  === org.springframework.data.convert.CustomConversions ==== Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-09-27 === [main] === WARN  === o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext ==== Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'messageReceive2' defined in file [D:\Jz-workspace\JavaApp\demo\target\classes\com\example\demo\server\messge\MessageReceive2.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.demo.server.messge.MessageReceive2]: Constructor threw exception; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379
+2021-09-27 === [main] === ERROR === org.springframework.boot.SpringApplication ==== Application run failed
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'messageReceive2' defined in file [D:\Jz-workspace\JavaApp\demo\target\classes\com\example\demo\server\messge\MessageReceive2.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.demo.server.messge.MessageReceive2]: Constructor threw exception; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379
 	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:315)
 	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:296)
@@ -24,7 +24,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
-	at com.example.demo.DemoApplication.main(DemoApplication.java:42)
+	at com.example.demo.DemoApplication.main(DemoApplication.java:44)
 Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.demo.server.messge.MessageReceive2]: Constructor threw exception; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379
 	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:221)
 	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:117)
@@ -81,139 +81,293 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-2021-09-26 === [main] === INFO  === com.example.demo.DemoApplication ==== Starting DemoApplication using Java 1.8.0_181 on ZhangJing with PID 15060 (D:\Jz-workspace\JavaApp\demo\target\classes started by jinzbone in D:\Jz-workspace\JavaApp\demo)
-2021-09-26 === [main] === INFO  === com.example.demo.DemoApplication ==== The following profiles are active: dev
-2021-09-26 === [main] === WARN  === org.springframework.data.convert.CustomConversions ==== Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
-2021-09-26 === [main] === WARN  === org.springframework.data.convert.CustomConversions ==== Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
-2021-09-26 === [main] === WARN  === o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext ==== Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'messageReceive2' defined in file [D:\Jz-workspace\JavaApp\demo\target\classes\com\example\demo\server\messge\MessageReceive2.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.demo.server.messge.MessageReceive2]: Constructor threw exception; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379
-2021-09-26 === [main] === ERROR === org.springframework.boot.SpringApplication ==== Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'messageReceive2' defined in file [D:\Jz-workspace\JavaApp\demo\target\classes\com\example\demo\server\messge\MessageReceive2.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.demo.server.messge.MessageReceive2]: Constructor threw exception; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:315)
-	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:296)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1354)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+2021-09-27 === [main] === INFO  === com.example.demo.DemoApplication ==== Starting DemoApplication using Java 1.8.0_181 on ZhangJing with PID 22148 (D:\Jz-workspace\JavaApp\demo\target\classes started by jinzbone in D:\Jz-workspace\JavaApp\demo)
+2021-09-27 === [main] === INFO  === com.example.demo.DemoApplication ==== The following profiles are active: dev
+2021-09-27 === [main] === WARN  === org.springframework.data.convert.CustomConversions ==== Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-09-27 === [main] === WARN  === org.springframework.data.convert.CustomConversions ==== Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-09-27 === [main] === WARN  === s.d.s.w.readers.parameter.ParameterDataTypeReader ==== Trying to infer dataType org.springframework.ui.ModelMap
+2021-09-27 === [scheduling-1] === INFO  === com.example.demo.config.component.ScheduledTasks ==== 现在时间：16:08:11
+2021-09-27 === [main] === INFO  === com.example.demo.DemoApplication ==== Started DemoApplication in 9.752 seconds (JVM running for 10.73)
+2021-09-27 === [scheduling-1] === INFO  === com.example.demo.config.component.ScheduledTasks ==== 现在时间：16:08:16
+2021-09-27 === [scheduling-1] === INFO  === com.example.demo.config.component.ScheduledTasks ==== 现在时间：16:08:21
+2021-09-27 === [scheduling-1] === INFO  === com.example.demo.config.component.ScheduledTasks ==== 现在时间：16:08:26
+2021-09-27 === [main] === INFO  === com.example.demo.DemoApplication ==== Starting DemoApplication using Java 1.8.0_181 on ZhangJing with PID 18504 (D:\Jz-workspace\JavaApp\demo\target\classes started by jinzbone in D:\Jz-workspace\JavaApp\demo)
+2021-09-27 === [main] === INFO  === com.example.demo.DemoApplication ==== The following profiles are active: dev
+2021-09-27 === [main] === WARN  === o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext ==== Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.apache.shardingsphere.elasticjob.lite.spring.boot.job.ElasticJobBootstrapConfiguration': Invocation of init method failed; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'elasticjob-org.apache.shardingsphere.elasticjob.lite.spring.boot.job.ElasticJobProperties': Could not bind properties to 'ElasticJobProperties' : prefix=elasticjob, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'elasticjob.jobs.my-simple-job.elastic-job-class' to java.lang.Class<org.apache.shardingsphere.elasticjob.api.ElasticJob>
+2021-09-27 === [main] === ERROR === o.s.b.diagnostics.LoggingFailureAnalysisReporter ==== 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'elasticjob.jobs.my-simple-job.elastic-job-class' to java.lang.Class<org.apache.shardingsphere.elasticjob.api.ElasticJob>:
+
+    Property: elasticjob.jobs.my-simple-job.elastic-job-class
+    Value: com.didispace.chapter72.MySimpleJob
+    Origin: "elasticjob.jobs.my-simple-job.elastic-job-class" from property source "Config resource 'class path resource [application-dev.properties]' via location 'optional:classpath:/'"
+    Reason: failed to convert java.lang.String to java.lang.Class<org.apache.shardingsphere.elasticjob.api.ElasticJob> (caused by java.lang.ClassNotFoundException: com.didispace.chapter72.MySimpleJob)
+
+Action:
+
+Update your application's configuration
+
+2021-09-27 === [main] === INFO  === com.example.demo.DemoApplication ==== Starting DemoApplication using Java 1.8.0_181 on ZhangJing with PID 9204 (D:\Jz-workspace\JavaApp\demo\target\classes started by jinzbone in D:\Jz-workspace\JavaApp\demo)
+2021-09-27 === [main] === INFO  === com.example.demo.DemoApplication ==== The following profiles are active: dev
+2021-09-27 === [main] === WARN  === o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext ==== Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.apache.shardingsphere.elasticjob.lite.spring.boot.job.ElasticJobBootstrapConfiguration': Invocation of init method failed; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'elasticjob-org.apache.shardingsphere.elasticjob.lite.spring.boot.job.ElasticJobProperties': Could not bind properties to 'ElasticJobProperties' : prefix=elasticjob, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'elasticjob.jobs.my-simple-job.elastic-job-class' to java.lang.Class<org.apache.shardingsphere.elasticjob.api.ElasticJob>
+2021-09-27 === [main] === ERROR === o.s.b.diagnostics.LoggingFailureAnalysisReporter ==== 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'elasticjob.jobs.my-simple-job.elastic-job-class' to java.lang.Class<org.apache.shardingsphere.elasticjob.api.ElasticJob>:
+
+    Property: elasticjob.jobs.my-simple-job.elastic-job-class
+    Value: com.didispace.chapter72.MySimpleJob
+    Origin: "elasticjob.jobs.my-simple-job.elastic-job-class" from property source "Config resource 'class path resource [application-dev.properties]' via location 'optional:classpath:/'"
+    Reason: failed to convert java.lang.String to java.lang.Class<org.apache.shardingsphere.elasticjob.api.ElasticJob> (caused by java.lang.ClassNotFoundException: com.didispace.chapter72.MySimpleJob)
+
+Action:
+
+Update your application's configuration
+
+2021-09-27 === [main] === INFO  === com.example.demo.DemoApplication ==== Starting DemoApplication using Java 1.8.0_181 on ZhangJing with PID 17400 (D:\Jz-workspace\JavaApp\demo\target\classes started by jinzbone in D:\Jz-workspace\JavaApp\demo)
+2021-09-27 === [main] === INFO  === com.example.demo.DemoApplication ==== The following profiles are active: dev
+2021-09-27 === [main] === WARN  === o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext ==== Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.apache.shardingsphere.elasticjob.lite.spring.boot.job.ElasticJobBootstrapConfiguration': Invocation of init method failed; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'elasticjob-org.apache.shardingsphere.elasticjob.lite.spring.boot.job.ElasticJobProperties': Could not bind properties to 'ElasticJobProperties' : prefix=elasticjob, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'elasticjob.jobs.my-simple-job.elastic-job-class' to java.lang.Class<org.apache.shardingsphere.elasticjob.api.ElasticJob>
+2021-09-27 === [main] === ERROR === o.s.b.diagnostics.LoggingFailureAnalysisReporter ==== 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'elasticjob.jobs.my-simple-job.elastic-job-class' to java.lang.Class<org.apache.shardingsphere.elasticjob.api.ElasticJob>:
+
+    Property: elasticjob.jobs.my-simple-job.elastic-job-class
+    Value: com.didispace.chapter72.MySimpleJob
+    Origin: "elasticjob.jobs.my-simple-job.elastic-job-class" from property source "Config resource 'class path resource [application-dev.properties]' via location 'optional:classpath:/'"
+    Reason: failed to convert java.lang.String to java.lang.Class<org.apache.shardingsphere.elasticjob.api.ElasticJob> (caused by java.lang.ClassNotFoundException: com.didispace.chapter72.MySimpleJob)
+
+Action:
+
+Update your application's configuration
+
+2021-09-27 === [main] === INFO  === com.example.demo.DemoApplication ==== Starting DemoApplication using Java 1.8.0_181 on ZhangJing with PID 23300 (D:\Jz-workspace\JavaApp\demo\target\classes started by jinzbone in D:\Jz-workspace\JavaApp\demo)
+2021-09-27 === [main] === INFO  === com.example.demo.DemoApplication ==== The following profiles are active: dev
+2021-09-27 === [main-SendThread(localhost:2181)] === WARN  === org.apache.zookeeper.ClientCnxn ==== An exception was thrown while closing send thread for session 0x0.
+org.apache.zookeeper.ClientCnxn$EndOfStreamException: Unable to read additional data from server sessionid 0x0, likely server has closed socket
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:75)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:348)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1262)
+2021-09-27 === [main] === WARN  === o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext ==== Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.apache.shardingsphere.elasticjob.lite.spring.boot.job.ElasticJobBootstrapConfiguration': Invocation of init method failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'zookeeperRegistryCenter' defined in class path resource [org/apache/shardingsphere/elasticjob/lite/spring/boot/reg/ElasticJobRegistryCenterConfiguration.class]: Invocation of init method failed; nested exception is org.apache.shardingsphere.elasticjob.reg.exception.RegException: org.apache.zookeeper.KeeperException$OperationTimeoutException: KeeperErrorCode = OperationTimeout
+2021-09-27 === [main] === ERROR === org.springframework.boot.SpringApplication ==== Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.apache.shardingsphere.elasticjob.lite.spring.boot.job.ElasticJobBootstrapConfiguration': Invocation of init method failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'zookeeperRegistryCenter' defined in class path resource [org/apache/shardingsphere/elasticjob/lite/spring/boot/reg/ElasticJobRegistryCenterConfiguration.class]: Invocation of init method failed; nested exception is org.apache.shardingsphere.elasticjob.reg.exception.RegException: org.apache.zookeeper.KeeperException$OperationTimeoutException: KeeperErrorCode = OperationTimeout
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:270)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:762)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:567)
 	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
-	at com.example.demo.DemoApplication.main(DemoApplication.java:42)
-Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.demo.server.messge.MessageReceive2]: Constructor threw exception; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379
-	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:221)
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:117)
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:311)
-	... 19 common frames omitted
-Caused by: org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379
-	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1671)
-	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1579)
-	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1365)
-	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getConnection(LettuceConnectionFactory.java:1348)
-	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedConnection(LettuceConnectionFactory.java:1089)
-	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getConnection(LettuceConnectionFactory.java:421)
-	at com.example.demo.server.messge.MessageReceive2.<init>(MessageReceive2.java:21)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:208)
-	... 21 common frames omitted
-Caused by: org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379
-	at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.getConnection(LettucePoolingConnectionProvider.java:109)
-	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1577)
-	... 31 common frames omitted
-Caused by: io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379
-	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:78)
-	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:56)
-	at io.lettuce.core.AbstractRedisClient.getConnection(AbstractRedisClient.java:330)
-	at io.lettuce.core.RedisClient.connect(RedisClient.java:216)
-	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.lambda$getConnection$1(StandaloneConnectionProvider.java:115)
-	at java.util.Optional.orElseGet(Optional.java:267)
-	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.getConnection(StandaloneConnectionProvider.java:115)
-	at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.lambda$null$0(LettucePoolingConnectionProvider.java:97)
-	at io.lettuce.core.support.ConnectionPoolSupport$RedisPooledObjectFactory.create(ConnectionPoolSupport.java:211)
-	at io.lettuce.core.support.ConnectionPoolSupport$RedisPooledObjectFactory.create(ConnectionPoolSupport.java:201)
-	at org.apache.commons.pool2.BasePooledObjectFactory.makeObject(BasePooledObjectFactory.java:58)
-	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:918)
-	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:431)
-	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:356)
-	at io.lettuce.core.support.ConnectionPoolSupport$1.borrowObject(ConnectionPoolSupport.java:122)
-	at io.lettuce.core.support.ConnectionPoolSupport$1.borrowObject(ConnectionPoolSupport.java:117)
-	at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.getConnection(LettucePoolingConnectionProvider.java:103)
-	... 32 common frames omitted
-Caused by: io.lettuce.core.RedisCommandExecutionException: ERR Client sent AUTH, but no password is set
-	at io.lettuce.core.internal.ExceptionFactory.createExecutionException(ExceptionFactory.java:137)
-	at io.lettuce.core.internal.ExceptionFactory.createExecutionException(ExceptionFactory.java:110)
-	at io.lettuce.core.protocol.AsyncCommand.completeResult(AsyncCommand.java:120)
-	at io.lettuce.core.protocol.AsyncCommand.complete(AsyncCommand.java:111)
-	at io.lettuce.core.protocol.CommandHandler.complete(CommandHandler.java:746)
-	at io.lettuce.core.protocol.CommandHandler.decode(CommandHandler.java:681)
-	at io.lettuce.core.protocol.CommandHandler.channelRead(CommandHandler.java:598)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-2021-09-26 === [main] === INFO  === com.example.demo.DemoApplication ==== Starting DemoApplication using Java 1.8.0_181 on ZhangJing with PID 15040 (D:\Jz-workspace\JavaApp\demo\target\classes started by jinzbone in D:\Jz-workspace\JavaApp\demo)
-2021-09-26 === [main] === INFO  === com.example.demo.DemoApplication ==== The following profiles are active: dev
-2021-09-26 === [main] === WARN  === org.springframework.data.convert.CustomConversions ==== Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
-2021-09-26 === [main] === WARN  === org.springframework.data.convert.CustomConversions ==== Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
-2021-09-26 === [main] === INFO  === com.example.demo.DemoApplication ==== Started DemoApplication in 9.115 seconds (JVM running for 10.019)
-2021-09-26 === [main] === INFO  === com.example.demo.DemoApplication ==== Starting DemoApplication using Java 1.8.0_181 on ZhangJing with PID 19040 (D:\Jz-workspace\JavaApp\demo\target\classes started by jinzbone in D:\Jz-workspace\JavaApp\demo)
-2021-09-26 === [main] === INFO  === com.example.demo.DemoApplication ==== The following profiles are active: dev
-2021-09-26 === [main] === WARN  === org.springframework.data.convert.CustomConversions ==== Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
-2021-09-26 === [main] === WARN  === org.springframework.data.convert.CustomConversions ==== Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
-2021-09-26 === [main] === WARN  === s.d.s.w.readers.parameter.ParameterDataTypeReader ==== Trying to infer dataType org.springframework.ui.ModelMap
-2021-09-26 === [main] === INFO  === com.example.demo.DemoApplication ==== Started DemoApplication in 9.365 seconds (JVM running for 10.307)
-2021-09-26 === [http-nio-8080-exec-1] === INFO  === com.example.demo.server.controller.UserController ==== 第一次查询：张静
-2021-09-26 === [http-nio-8080-exec-1] === INFO  === com.example.demo.server.controller.UserController ==== 第二次查询：张静
-2021-09-26 === [main] === INFO  === com.example.demo.DemoApplication ==== Starting DemoApplication using Java 1.8.0_181 on ZhangJing with PID 22152 (D:\Jz-workspace\JavaApp\demo\target\classes started by jinzbone in D:\Jz-workspace\JavaApp\demo)
-2021-09-26 === [main] === INFO  === com.example.demo.DemoApplication ==== The following profiles are active: dev
-2021-09-26 === [main] === WARN  === org.springframework.data.convert.CustomConversions ==== Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
-2021-09-26 === [main] === WARN  === org.springframework.data.convert.CustomConversions ==== Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
-2021-09-26 === [main] === WARN  === s.d.s.w.readers.parameter.ParameterDataTypeReader ==== Trying to infer dataType org.springframework.ui.ModelMap
-2021-09-26 === [main] === INFO  === com.example.demo.DemoApplication ==== Started DemoApplication in 9.706 seconds (JVM running for 10.623)
-2021-09-26 === [main] === INFO  === com.example.demo.DemoApplication ==== Starting DemoApplication using Java 1.8.0_181 on ZhangJing with PID 4472 (D:\Jz-workspace\JavaApp\demo\target\classes started by jinzbone in D:\Jz-workspace\JavaApp\demo)
-2021-09-26 === [main] === INFO  === com.example.demo.DemoApplication ==== The following profiles are active: dev
-2021-09-26 === [main] === WARN  === org.springframework.data.convert.CustomConversions ==== Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
-2021-09-26 === [main] === WARN  === org.springframework.data.convert.CustomConversions ==== Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
-2021-09-26 === [main] === WARN  === s.d.s.w.readers.parameter.ParameterDataTypeReader ==== Trying to infer dataType org.springframework.ui.ModelMap
-2021-09-26 === [main] === INFO  === com.example.demo.DemoApplication ==== Started DemoApplication in 9.842 seconds (JVM running for 10.821)
-2021-09-26 === [main] === INFO  === com.example.demo.DemoApplication ==== Starting DemoApplication using Java 1.8.0_181 on ZhangJing with PID 10432 (D:\Jz-workspace\JavaApp\demo\target\classes started by jinzbone in D:\Jz-workspace\JavaApp\demo)
-2021-09-26 === [main] === INFO  === com.example.demo.DemoApplication ==== The following profiles are active: dev
-2021-09-26 === [main] === WARN  === org.springframework.data.convert.CustomConversions ==== Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
-2021-09-26 === [main] === WARN  === org.springframework.data.convert.CustomConversions ==== Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
-2021-09-26 === [main] === WARN  === s.d.s.w.readers.parameter.ParameterDataTypeReader ==== Trying to infer dataType org.springframework.ui.ModelMap
-2021-09-26 === [main] === INFO  === com.example.demo.DemoApplication ==== Started DemoApplication in 9.304 seconds (JVM running for 10.217)
-2021-09-26 === [lettuce-nioEventLoop-4-8] === WARN  === io.lettuce.core.protocol.ConnectionWatchdog ==== Cannot reconnect to [localhost:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
-2021-09-26 === [lettuce-nioEventLoop-4-6] === WARN  === io.lettuce.core.protocol.ConnectionWatchdog ==== Cannot reconnect to [localhost:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
-2021-09-26 === [lettuce-nioEventLoop-4-7] === WARN  === io.lettuce.core.protocol.ConnectionWatchdog ==== Cannot reconnect to [localhost:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
-2021-09-26 === [lettuce-nioEventLoop-4-5] === WARN  === io.lettuce.core.protocol.ConnectionWatchdog ==== Cannot reconnect to [localhost:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
-2021-09-26 === [lettuce-nioEventLoop-4-7] === WARN  === io.lettuce.core.protocol.ConnectionWatchdog ==== Cannot reconnect to [localhost:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
-2021-09-26 === [lettuce-nioEventLoop-4-6] === WARN  === io.lettuce.core.protocol.ConnectionWatchdog ==== Cannot reconnect to [localhost:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
-2021-09-26 === [lettuce-nioEventLoop-4-8] === WARN  === io.lettuce.core.protocol.ConnectionWatchdog ==== Cannot reconnect to [localhost:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
-2021-09-26 === [lettuce-nioEventLoop-4-5] === WARN  === io.lettuce.core.protocol.ConnectionWatchdog ==== Cannot reconnect to [localhost:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
-2021-09-26 === [lettuce-nioEventLoop-4-7] === WARN  === io.lettuce.core.protocol.ConnectionWatchdog ==== Cannot reconnect to [localhost:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
-2021-09-26 === [lettuce-nioEventLoop-4-8] === WARN  === io.lettuce.core.protocol.ConnectionWatchdog ==== Cannot reconnect to [localhost:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
-2021-09-26 === [lettuce-nioEventLoop-4-6] === WARN  === io.lettuce.core.protocol.ConnectionWatchdog ==== Cannot reconnect to [localhost:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
-2021-09-26 === [lettuce-nioEventLoop-4-5] === WARN  === io.lettuce.core.protocol.ConnectionWatchdog ==== Cannot reconnect to [localhost:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+	at com.example.demo.DemoApplication.main(DemoApplication.java:44)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'zookeeperRegistryCenter' defined in class path resource [org/apache/shardingsphere/elasticjob/lite/spring/boot/reg/ElasticJobRegistryCenterConfiguration.class]: Invocation of init method failed; nested exception is org.apache.shardingsphere.elasticjob.reg.exception.RegException: org.apache.zookeeper.KeeperException$OperationTimeoutException: KeeperErrorCode = OperationTimeout
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:233)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1273)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1234)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:494)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:349)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:342)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1172)
+	at org.apache.shardingsphere.elasticjob.lite.spring.boot.job.ElasticJobBootstrapConfiguration.createJobBootstrapBeans(ElasticJobBootstrapConfiguration.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:333)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:157)
+	... 18 common frames omitted
+Caused by: org.apache.shardingsphere.elasticjob.reg.exception.RegException: org.apache.zookeeper.KeeperException$OperationTimeoutException: KeeperErrorCode = OperationTimeout
+	at org.apache.shardingsphere.elasticjob.reg.exception.RegExceptionHandler.handleException(RegExceptionHandler.java:48)
+	at org.apache.shardingsphere.elasticjob.reg.zookeeper.ZookeeperRegistryCenter.init(ZookeeperRegistryCenter.java:107)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeCustomInitMethod(AbstractAutowireCapableBeanFactory.java:1912)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1854)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 38 common frames omitted
+Caused by: org.apache.zookeeper.KeeperException$OperationTimeoutException: KeeperErrorCode = OperationTimeout
+	at org.apache.shardingsphere.elasticjob.reg.zookeeper.ZookeeperRegistryCenter.init(ZookeeperRegistryCenter.java:102)
+	... 45 common frames omitted
+2021-09-27 === [main] === INFO  === com.example.demo.DemoApplication ==== Starting DemoApplication using Java 1.8.0_181 on ZhangJing with PID 23500 (D:\Jz-workspace\JavaApp\demo\target\classes started by jinzbone in D:\Jz-workspace\JavaApp\demo)
+2021-09-27 === [main] === INFO  === com.example.demo.DemoApplication ==== The following profiles are active: dev
+2021-09-27 === [main-SendThread(localhost:2181)] === WARN  === org.apache.zookeeper.ClientCnxn ==== An exception was thrown while closing send thread for session 0x0.
+org.apache.zookeeper.ClientCnxn$EndOfStreamException: Unable to read additional data from server sessionid 0x0, likely server has closed socket
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:75)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:348)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1262)
+2021-09-27 === [main] === WARN  === o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext ==== Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.apache.shardingsphere.elasticjob.lite.spring.boot.job.ElasticJobBootstrapConfiguration': Invocation of init method failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'zookeeperRegistryCenter' defined in class path resource [org/apache/shardingsphere/elasticjob/lite/spring/boot/reg/ElasticJobRegistryCenterConfiguration.class]: Invocation of init method failed; nested exception is org.apache.shardingsphere.elasticjob.reg.exception.RegException: org.apache.zookeeper.KeeperException$OperationTimeoutException: KeeperErrorCode = OperationTimeout
+2021-09-27 === [main] === ERROR === org.springframework.boot.SpringApplication ==== Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.apache.shardingsphere.elasticjob.lite.spring.boot.job.ElasticJobBootstrapConfiguration': Invocation of init method failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'zookeeperRegistryCenter' defined in class path resource [org/apache/shardingsphere/elasticjob/lite/spring/boot/reg/ElasticJobRegistryCenterConfiguration.class]: Invocation of init method failed; nested exception is org.apache.shardingsphere.elasticjob.reg.exception.RegException: org.apache.zookeeper.KeeperException$OperationTimeoutException: KeeperErrorCode = OperationTimeout
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:270)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:762)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:567)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.example.demo.DemoApplication.main(DemoApplication.java:44)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'zookeeperRegistryCenter' defined in class path resource [org/apache/shardingsphere/elasticjob/lite/spring/boot/reg/ElasticJobRegistryCenterConfiguration.class]: Invocation of init method failed; nested exception is org.apache.shardingsphere.elasticjob.reg.exception.RegException: org.apache.zookeeper.KeeperException$OperationTimeoutException: KeeperErrorCode = OperationTimeout
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:233)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1273)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1234)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:494)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:349)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:342)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1172)
+	at org.apache.shardingsphere.elasticjob.lite.spring.boot.job.ElasticJobBootstrapConfiguration.createJobBootstrapBeans(ElasticJobBootstrapConfiguration.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:333)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:157)
+	... 18 common frames omitted
+Caused by: org.apache.shardingsphere.elasticjob.reg.exception.RegException: org.apache.zookeeper.KeeperException$OperationTimeoutException: KeeperErrorCode = OperationTimeout
+	at org.apache.shardingsphere.elasticjob.reg.exception.RegExceptionHandler.handleException(RegExceptionHandler.java:48)
+	at org.apache.shardingsphere.elasticjob.reg.zookeeper.ZookeeperRegistryCenter.init(ZookeeperRegistryCenter.java:107)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeCustomInitMethod(AbstractAutowireCapableBeanFactory.java:1912)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1854)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 38 common frames omitted
+Caused by: org.apache.zookeeper.KeeperException$OperationTimeoutException: KeeperErrorCode = OperationTimeout
+	at org.apache.shardingsphere.elasticjob.reg.zookeeper.ZookeeperRegistryCenter.init(ZookeeperRegistryCenter.java:102)
+	... 45 common frames omitted
+2021-09-27 === [main] === INFO  === com.example.demo.DemoApplication ==== Starting DemoApplication using Java 1.8.0_181 on ZhangJing with PID 20708 (D:\Jz-workspace\JavaApp\demo\target\classes started by jinzbone in D:\Jz-workspace\JavaApp\demo)
+2021-09-27 === [main] === INFO  === com.example.demo.DemoApplication ==== The following profiles are active: dev
+2021-09-27 === [main-SendThread(localhost:2181)] === WARN  === org.apache.zookeeper.ClientCnxn ==== An exception was thrown while closing send thread for session 0x0.
+org.apache.zookeeper.ClientCnxn$EndOfStreamException: Unable to read additional data from server sessionid 0x0, likely server has closed socket
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:75)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:348)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1262)
+2021-09-27 === [main] === WARN  === o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext ==== Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.apache.shardingsphere.elasticjob.lite.spring.boot.job.ElasticJobBootstrapConfiguration': Invocation of init method failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'zookeeperRegistryCenter' defined in class path resource [org/apache/shardingsphere/elasticjob/lite/spring/boot/reg/ElasticJobRegistryCenterConfiguration.class]: Invocation of init method failed; nested exception is org.apache.shardingsphere.elasticjob.reg.exception.RegException: org.apache.zookeeper.KeeperException$OperationTimeoutException: KeeperErrorCode = OperationTimeout
+2021-09-27 === [main] === ERROR === org.springframework.boot.SpringApplication ==== Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.apache.shardingsphere.elasticjob.lite.spring.boot.job.ElasticJobBootstrapConfiguration': Invocation of init method failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'zookeeperRegistryCenter' defined in class path resource [org/apache/shardingsphere/elasticjob/lite/spring/boot/reg/ElasticJobRegistryCenterConfiguration.class]: Invocation of init method failed; nested exception is org.apache.shardingsphere.elasticjob.reg.exception.RegException: org.apache.zookeeper.KeeperException$OperationTimeoutException: KeeperErrorCode = OperationTimeout
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:270)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:762)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:567)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.example.demo.DemoApplication.main(DemoApplication.java:44)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'zookeeperRegistryCenter' defined in class path resource [org/apache/shardingsphere/elasticjob/lite/spring/boot/reg/ElasticJobRegistryCenterConfiguration.class]: Invocation of init method failed; nested exception is org.apache.shardingsphere.elasticjob.reg.exception.RegException: org.apache.zookeeper.KeeperException$OperationTimeoutException: KeeperErrorCode = OperationTimeout
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:233)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1273)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1234)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:494)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:349)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:342)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1172)
+	at org.apache.shardingsphere.elasticjob.lite.spring.boot.job.ElasticJobBootstrapConfiguration.createJobBootstrapBeans(ElasticJobBootstrapConfiguration.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:333)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:157)
+	... 18 common frames omitted
+Caused by: org.apache.shardingsphere.elasticjob.reg.exception.RegException: org.apache.zookeeper.KeeperException$OperationTimeoutException: KeeperErrorCode = OperationTimeout
+	at org.apache.shardingsphere.elasticjob.reg.exception.RegExceptionHandler.handleException(RegExceptionHandler.java:48)
+	at org.apache.shardingsphere.elasticjob.reg.zookeeper.ZookeeperRegistryCenter.init(ZookeeperRegistryCenter.java:107)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeCustomInitMethod(AbstractAutowireCapableBeanFactory.java:1912)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1854)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 38 common frames omitted
+Caused by: org.apache.zookeeper.KeeperException$OperationTimeoutException: KeeperErrorCode = OperationTimeout
+	at org.apache.shardingsphere.elasticjob.reg.zookeeper.ZookeeperRegistryCenter.init(ZookeeperRegistryCenter.java:102)
+	... 45 common frames omitted
+2021-09-27 === [main] === INFO  === com.example.demo.DemoApplication ==== Starting DemoApplication using Java 1.8.0_181 on ZhangJing with PID 7664 (D:\Jz-workspace\JavaApp\demo\target\classes started by jinzbone in D:\Jz-workspace\JavaApp\demo)
+2021-09-27 === [main] === INFO  === com.example.demo.DemoApplication ==== The following profiles are active: dev
+2021-09-27 === [main] === WARN  === org.springframework.data.convert.CustomConversions ==== Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-09-27 === [main] === WARN  === org.springframework.data.convert.CustomConversions ==== Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-09-27 === [main] === WARN  === s.d.s.w.readers.parameter.ParameterDataTypeReader ==== Trying to infer dataType org.springframework.ui.ModelMap
+2021-09-27 === [main] === INFO  === com.example.demo.DemoApplication ==== Started DemoApplication in 10.127 seconds (JVM running for 11.129)
+2021-09-27 === [main] === INFO  === com.example.demo.DemoApplication ==== Starting DemoApplication using Java 1.8.0_181 on ZhangJing with PID 20372 (D:\Jz-workspace\JavaApp\demo\target\classes started by jinzbone in D:\Jz-workspace\JavaApp\demo)
+2021-09-27 === [main] === INFO  === com.example.demo.DemoApplication ==== The following profiles are active: dev
+2021-09-27 === [main] === WARN  === org.springframework.data.convert.CustomConversions ==== Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-09-27 === [main] === WARN  === org.springframework.data.convert.CustomConversions ==== Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-09-27 === [main] === WARN  === s.d.s.w.readers.parameter.ParameterDataTypeReader ==== Trying to infer dataType org.springframework.ui.ModelMap
+2021-09-27 === [scheduling-1] === INFO  === com.example.demo.config.component.ScheduledTasks ==== 现在时间：17:28:31
+2021-09-27 === [main] === INFO  === com.example.demo.DemoApplication ==== Started DemoApplication in 9.723 seconds (JVM running for 10.68)
+2021-09-27 === [scheduling-1] === INFO  === com.example.demo.config.component.ScheduledTasks ==== 现在时间：17:28:36
+2021-09-27 === [scheduling-1] === INFO  === com.example.demo.config.component.ScheduledTasks ==== 现在时间：17:28:41
+2021-09-27 === [scheduling-1] === INFO  === com.example.demo.config.component.ScheduledTasks ==== 现在时间：17:28:46

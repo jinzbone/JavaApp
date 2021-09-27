@@ -13,6 +13,7 @@ import org.springframework.data.redis.connection.Message;
 import org.springframework.data.redis.connection.MessageListener;
 import org.springframework.data.redis.connection.RedisConnection;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -36,6 +37,7 @@ import java.nio.charset.StandardCharsets;
 @MapperScan(basePackages = {"com.example.demo.basemapper"})
 @EnableSwagger2
 @EnableCaching
+@EnableScheduling
 public class DemoApplication {
 
 	public static void main(String[] args) {
